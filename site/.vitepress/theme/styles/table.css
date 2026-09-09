@@ -1,13 +1,15 @@
 .pp-hand-demo {
   display: grid;
-  margin: 32px calc(50% - 48vw);
+  height: 610px;
+  width: min(1040px, calc(100vw - 340px));
+  margin: 32px 0;
   color: var(--pp-white);
   background: #171d1a;
   grid-template-columns: minmax(0, 1fr) 292px;
   box-shadow: 0 22px 55px rgba(18, 24, 21, .22);
 }
 
-.pp-poker-table { min-width: 0; min-height: 610px; padding: 42px; background: #252c28; }
+.pp-poker-table { min-width: 0; height: 610px; padding: 42px; background: #252c28; }
 .pp-felt { position: relative; width: 100%; height: 520px; border: 17px solid #633f25; border-radius: 50%; background: radial-gradient(circle at 50% 42%, rgba(255,255,255,.08), transparent 44%), var(--pp-felt); box-shadow: inset 0 0 0 3px #a57945, inset 0 0 55px rgba(0,0,0,.35), 0 28px 38px rgba(0, 0, 0, .2); }
 .pp-poker-table .pp-seat { position: absolute; z-index: 2; width: 122px; min-height: 68px; padding: 9px; border: 1px solid rgba(255,255,255,.18); color: var(--pp-white); background: rgba(10,16,13,.92); text-align: center; transform: translate(-50%, -50%); transition: opacity .25s ease, box-shadow .25s ease, border-color .25s ease; }
 .pp-poker-table .pp-seat strong,
@@ -24,7 +26,7 @@
 .pp-playing-card--seat { width: 38px; height: 53px; }
 .pp-playing-card--board { width: 68px; height: 95px; }
 .pp-playing-card--teaching { width: 106px; height: 148px; }
-.pp-lesson-panel { position: relative; display: flex; min-height: 610px; padding: 34px 26px 26px; border-left: 1px solid rgba(255,255,255,.08); flex-direction: column; }
+.pp-lesson-panel { position: relative; display: flex; height: 610px; min-height: 0; padding: 34px 26px 26px; border-left: 1px solid rgba(255,255,255,.08); flex-direction: column; overflow: hidden; }
 .pp-street { align-self: flex-start; padding: 5px 9px; border: 1px solid rgba(208,167,82,.6); border-radius: 999px; color: var(--pp-brass); font: 750 11px/1 var(--vp-font-family-mono); }
 .pp-note { min-height: 94px; margin: 20px 0 16px; color: var(--pp-white); font-family: "Songti SC", STSong, Georgia, serif; font-size: 18px; font-weight: 650; line-height: 1.6; }
 .pp-action-replay { min-height: 0; margin: 0 0 18px; padding: 0; overflow: auto; flex: 1; list-style: none; }
@@ -42,8 +44,8 @@
 }
 
 @media (max-width: 960px) {
-  .pp-hand-demo { margin-right: -24px; margin-left: -24px; grid-template-columns: 1fr; }
-  .pp-lesson-panel { min-height: 420px; border-top: 1px solid rgba(255,255,255,.08); border-left: 0; }
+  .pp-hand-demo { width: auto; height: auto; margin-right: -24px; margin-left: -24px; grid-template-columns: 1fr; }
+  .pp-lesson-panel { height: 520px; border-top: 1px solid rgba(255,255,255,.08); border-left: 0; }
 }
 
 @media (max-width: 680px) {

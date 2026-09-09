@@ -2,6 +2,7 @@
 title: 三分钟走完第一手
 description: 从翻前到摊牌，看懂一手六人桌牌局怎样推进。
 prev: 牌桌规则
+aside: false
 ---
 
 # 三分钟走完第一手
