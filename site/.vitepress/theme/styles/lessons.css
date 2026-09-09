@@ -1,0 +1,52 @@
+.pp-rank-list { margin: 30px 0; border-top: 2px solid var(--pp-ink); }
+.pp-rank-row { display: grid; min-height: 124px; padding: 14px 0; border-bottom: 1px solid rgba(23,33,30,.18); align-items: center; grid-template-columns: 38px 150px 1fr; gap: 12px; }
+.pp-rank-number { color: var(--pp-red); font: 800 11px/1 var(--vp-font-family-mono); }
+.pp-rank-row strong,
+.pp-rank-row small { display: block; }
+.pp-rank-row strong { font-family: "Songti SC", STSong, Georgia, serif; font-size: 19px; }
+.pp-rank-row small { margin-top: 3px; color: var(--pp-ink-soft); font-size: 11px; }
+.pp-rank-cards { display: flex; justify-content: flex-end; gap: 5px; }
+.pp-rank-cards .pp-playing-card--board { width: 54px; height: 76px; }
+
+.pp-callout {
+  margin: 26px 0;
+  padding: 20px 22px;
+  border-left: 5px solid var(--pp-brass);
+  background: rgba(208,167,82,.12);
+}
+
+.pp-formula {
+  margin: 24px 0;
+  padding: 18px;
+  border: 1px solid rgba(23,33,30,.18);
+  text-align: center;
+  font: 750 clamp(18px, 3vw, 26px)/1.4 var(--vp-font-family-mono);
+}
+
+.pp-decision-drill { margin: 32px 0; padding: clamp(22px, 4vw, 36px); color: var(--pp-white); background: #17211e; }
+.pp-decision-drill header { display: flex; padding-bottom: 18px; border-bottom: 1px solid rgba(255,255,255,.14); flex-direction: column; gap: 7px; }
+.pp-decision-drill header span { color: var(--pp-brass); font: 750 11px/1 var(--vp-font-family-mono); }
+.pp-decision-drill header strong { font-family: "Songti SC", STSong, Georgia, serif; font-size: clamp(18px, 3vw, 25px); }
+.pp-drill-cards { display: grid; margin: 24px 0; grid-template-columns: 190px 1fr; gap: 24px; }
+.pp-drill-cards small { display: block; margin-bottom: 8px; color: rgba(255,255,255,.55); }
+.pp-card-pair { display: flex; gap: 5px; }
+.pp-decision-drill .pp-playing-card--board { width: 58px; height: 81px; }
+.pp-decision-drill > p { color: rgba(255,255,255,.78); }
+.pp-decision-drill button { padding: 11px 15px; border: 1px solid var(--pp-brass); color: var(--pp-brass); background: transparent; cursor: pointer; font-weight: 800; }
+.pp-decision-drill button:hover { color: var(--pp-ink); background: var(--pp-brass); }
+.pp-drill-answer { margin-top: 20px; padding: 20px; border-left: 4px solid var(--pp-brass); background: rgba(255,255,255,.06); animation: pp-answer-in .35s ease both; }
+.pp-drill-answer strong { color: var(--pp-brass); }
+.pp-drill-answer p { margin: 9px 0 0; color: rgba(255,255,255,.76); }
+@keyframes pp-answer-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+
+@media (max-width: 620px) {
+  .pp-rank-row { grid-template-columns: 28px 1fr; }
+  .pp-rank-cards { grid-column: 1 / -1; justify-content: flex-start; }
+  .pp-rank-cards .pp-playing-card--board { width: 48px; height: 67px; }
+  .pp-drill-cards { grid-template-columns: 1fr; }
+  .pp-decision-drill .pp-playing-card--board { width: 46px; height: 64px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pp-drill-answer { animation: none; }
+}

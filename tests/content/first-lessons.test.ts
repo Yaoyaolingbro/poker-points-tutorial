@@ -18,7 +18,7 @@ describe('first lessons', () => {
     expect(pageTitle(hand)).toBeTruthy()
     expect(rules).not.toMatch(/TODO|待补|占位/u)
     expect(hand).not.toMatch(/TODO|待补|占位/u)
-    expect(siteConfig.themeConfig?.sidebar?.['/start/']).toBeTruthy()
+    expect(JSON.stringify(siteConfig.themeConfig?.sidebar)).toContain('/start/table-rules')
   })
 
   it('embeds the tested full-hand model instead of duplicating animation data in prose', async () => {
