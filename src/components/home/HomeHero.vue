@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { withBase } from 'vitepress'
+import PlayingCard from '@/components/cards/PlayingCard.vue'
 </script>
 
 <template>
@@ -33,8 +34,10 @@ import { withBase } from 'vitepress'
         <div class="pp-table-mark">
           <span class="pp-pot">底池 30</span>
           <span class="pp-button">BTN</span>
-          <span class="pp-card pp-card-a">A♠</span>
-          <span class="pp-card pp-card-j">J♠</span>
+          <div class="pp-hero-cards" aria-label="黑桃 A 和黑桃 J">
+            <PlayingCard :card="{ rank: 'A', suit: 's' }" size="teaching" />
+            <PlayingCard :card="{ rank: 'J', suit: 's' }" size="teaching" />
+          </div>
         </div>
         <p class="pp-scene-question">前面都弃牌。轮到你。</p>
       </div>

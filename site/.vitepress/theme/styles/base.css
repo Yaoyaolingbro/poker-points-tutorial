@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@600;700;900&display=swap");
-
 * { box-sizing: border-box; }
 
 body {
@@ -122,9 +120,9 @@ body {
   content: "";
 }
 
-.pp-card { position: absolute; z-index: 2; top: 76px; width: 68px; height: 96px; padding: 8px; border: 1px solid #dfdbcf; border-radius: 7px; color: #111; background: var(--pp-white); box-shadow: 0 9px 20px rgba(0, 0, 0, .25); font: 700 22px/1 Georgia, serif; }
-.pp-card-a { left: 126px; transform: rotate(-8deg); }
-.pp-card-j { left: 183px; transform: rotate(7deg); }
+.pp-hero-cards { position: absolute; z-index: 2; left: 70px; top: 18px; display: flex; gap: 7px; transform: scale(.62) rotate(-3deg); transform-origin: top left; }
+.pp-hero-cards .pp-playing-card { display: inline-block; width: 106px; height: 148px; filter: drop-shadow(0 8px 10px rgba(0,0,0,.28)); }
+.pp-hero-cards img { display: block; width: 100%; height: 100%; object-fit: contain; }
 .pp-pot { position: absolute; top: 42px; left: 50%; color: rgba(255, 255, 255, .72); font-size: 12px; transform: translateX(-50%); }
 .pp-button { position: absolute; z-index: 2; right: 54px; bottom: 28px; display: grid; width: 38px; height: 38px; border: 3px solid var(--pp-brass); border-radius: 50%; color: var(--pp-ink); background: var(--pp-white); place-items: center; font: 800 9px/1 var(--vp-font-family-mono); }
 .pp-seat { position: absolute; color: var(--pp-ink-soft); font: 700 11px/1 var(--vp-font-family-mono); letter-spacing: .02em; }
@@ -150,9 +148,7 @@ body {
   .pp-hero h1 { letter-spacing: -.06em; }
   .pp-hero-actions { align-items: flex-start; flex-direction: column; }
   .pp-scene { min-height: 330px; }
-  .pp-card { top: 58px; width: 58px; height: 82px; font-size: 18px; }
-  .pp-card-a { left: 28%; }
-  .pp-card-j { left: 43%; }
+  .pp-hero-cards { left: 19%; top: 10px; transform: scale(.52) rotate(-3deg); }
 }
 
 @media (prefers-reduced-motion: reduce) {
