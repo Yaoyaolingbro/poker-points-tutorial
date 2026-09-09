@@ -3,8 +3,8 @@
 .worktrees/
 node_modules/
 .npm-cache/
-.vitepress/cache/
-.vitepress/dist/
+**/.vitepress/cache/
+**/.vitepress/dist/
 coverage/
 playwright-report/
 test-results/
