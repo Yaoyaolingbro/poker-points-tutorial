@@ -6,14 +6,15 @@
 
 **Architecture:** VitePress 1.6.4 owns routing, Markdown, navigation, search, and static output. Vue 3 components under `src/` render locally vendored SVGCards and consume a pure TypeScript hand engine; lesson Markdown only supplies narrative and selects a hand dataset. This first plan intentionally stops after the home page and two real chapters, leaving rankings, preflop, postflop math, deep stacks, and practice labs for later plans.
 
-**Tech Stack:** Node.js 22 in CI, npm, VitePress 1.6.4, Vue 3.5.42, TypeScript 5.7.3, Vitest 2.1.9, Vue Test Utils 2.5.0, Happy DOM 20.14.0, Playwright 1.63.0, CSS transforms, GitHub Actions, GitHub Pages.
+**Tech Stack:** Node.js 22.12+ in CI, npm, VitePress 1.6.4, Vite 6.4.3 override, Vue 3.5.42, TypeScript 5.7.3, Vitest 5.0.0, Vue Test Utils 2.4.6, Happy DOM 20.14.0, Playwright 1.63.0, CSS transforms, GitHub Actions, GitHub Pages.
 
 **Spec:** `docs/superpowers/specs/2026-09-09-poker-points-tutorial-design.md`
 
 ## Global Constraints
 
-- Runtime floor: Node.js 20 or newer; GitHub Actions uses Node.js 22.
+- Runtime floor: Node.js 22.12 or newer; GitHub Actions uses the current Node.js 22 release.
 - Use stable VitePress `1.6.4`; do not adopt the `2.0.0-alpha` line.
+- Override VitePress's Vite dependency to patched Vite `6.4.3`; use Vitest `5.0.0` to avoid known path traversal issues in older test-server releases.
 - Default table: six players, small blind 10 points, big blind 20 points, 100BB = 2000 points.
 - Supported table size remains 5–8 seats even though the first hand uses six.
 - Public lesson copy uses only points and BB. It must not use currency symbols, currency units, redemption language, or the phrase “现金桌”.
@@ -91,7 +92,7 @@ Create `package.json`:
   "private": true,
   "type": "module",
   "engines": {
-    "node": ">=20"
+    "node": ">=22.12"
   },
   "scripts": {
     "dev": "vitepress dev site",
@@ -110,11 +111,15 @@ Create `package.json`:
     "@playwright/test": "1.63.0",
     "@types/node": "22.10.2",
     "@vitejs/plugin-vue": "5.2.4",
-    "@vue/test-utils": "2.5.0",
+    "@vue/test-utils": "2.4.6",
     "happy-dom": "20.14.0",
     "typescript": "5.7.3",
+    "vite": "6.4.3",
     "vitepress": "1.6.4",
-    "vitest": "2.1.9"
+    "vitest": "5.0.0"
+  },
+  "overrides": {
+    "vite": "6.4.3"
   }
 }
 ```
@@ -190,7 +195,7 @@ Create `tsconfig.json`:
 Create `vitest.config.ts`:
 
 ```ts
-import { fileURLToPath, URL } from 'node:url'
+import { resolve } from 'node:path'
 import vue from '@vitejs/plugin-vue'
 import { defineConfig } from 'vitest/config'
 
@@ -229,7 +234,7 @@ export const siteConfig = defineConfig({
   vite: {
     resolve: {
       alias: {
-        '@': fileURLToPath(new URL('../../src', import.meta.url))
+        '@': resolve(process.cwd(), 'src')
       }
     }
   },
@@ -1884,7 +1889,7 @@ Create `README.md` with:
 
 ## 本地运行
 
-要求 Node.js 20 或更新版本。
+要求 Node.js 22.12 或更新版本。
 
 ```bash
 npm install
