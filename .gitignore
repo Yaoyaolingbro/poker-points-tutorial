@@ -1,0 +1,9 @@
+.DS_Store
+.superpowers/
+node_modules/
+.vitepress/cache/
+.vitepress/dist/
+coverage/
+playwright-report/
+test-results/
+
