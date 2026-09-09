@@ -3,6 +3,10 @@ import { expect, test } from '@playwright/test'
 test('rankings and odds lab are usable', async ({ page }) => {
   await page.goto('/basics/hand-rankings')
   await expect(page.locator('[data-hand-rank]')).toHaveCount(10)
+  await expect(page.locator('[data-comparison-case]')).toHaveCount(4)
+  await expect(page.getByText('四葫花顺三二一')).toBeVisible()
+  await expect(page.getByText('七张里有三对，也只能交两对')).toBeVisible()
+  await expect(page.getByText('同样一对 A，踢脚决定输赢')).toBeVisible()
   await page.screenshot({ path: test.info().outputPath('hand-rankings.png'), fullPage: true })
   await page.goto('/math/pot-odds')
   await expect(page.getByText('25.0%')).toBeVisible()
