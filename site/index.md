@@ -3,10 +3,10 @@ layout: home
 
 hero:
   name: 积分桌入门
-  text: 先看懂一手牌，再记住一个概念。
-  tagline: 六人桌为主。小盲 10，大盲 20。每个决定都落到牌桌上讲。
+  text: 牌已经发下来了。你先做决定。
+  tagline: 六人桌，小盲 10，大盲 20。每节只解决一个牌桌问题。
   actions:
     - theme: brand
-      text: 从牌桌规则开始
+      text: 坐下，开始第一手
       link: /start/table-rules
 ---
