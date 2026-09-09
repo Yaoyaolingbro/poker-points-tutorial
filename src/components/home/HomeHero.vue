@@ -28,9 +28,9 @@ import PlayingCard from '@/components/cards/PlayingCard.vue'
       </div>
 
       <div class="pp-scene" aria-label="按钮位拿到黑桃 A 和黑桃 J，底池 30 积分">
-        <div class="pp-seat pp-seat-top">对手 · 2000</div>
-        <div class="pp-seat pp-seat-right">大盲 · 1980</div>
-        <div class="pp-seat pp-seat-left">小盲 · 1990</div>
+        <div class="pp-home-seat pp-home-seat-top">对手 · 2000</div>
+        <div class="pp-home-seat pp-home-seat-right">大盲 · 1980</div>
+        <div class="pp-home-seat pp-home-seat-left">小盲 · 1990</div>
         <div class="pp-table-mark">
           <span class="pp-pot">底池 30</span>
           <span class="pp-button">BTN</span>
