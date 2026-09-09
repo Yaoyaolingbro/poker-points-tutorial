@@ -25,4 +25,22 @@ describe('useHandTimeline', () => {
     expect(timeline.index.value).toBe(1)
     vi.useRealTimers()
   })
+
+  it('changes playback speed without resetting the hand', () => {
+    vi.useFakeTimers()
+    const timeline = useHandTimeline(firstHand, 1000)
+    timeline.play()
+    vi.advanceTimersByTime(999)
+    expect(timeline.index.value).toBe(0)
+
+    timeline.setIntervalMs(200)
+    expect(timeline.index.value).toBe(0)
+    expect(timeline.playing.value).toBe(true)
+    vi.advanceTimersByTime(199)
+    expect(timeline.index.value).toBe(0)
+    vi.advanceTimersByTime(1)
+    expect(timeline.index.value).toBe(1)
+    timeline.pause()
+    vi.useRealTimers()
+  })
 })

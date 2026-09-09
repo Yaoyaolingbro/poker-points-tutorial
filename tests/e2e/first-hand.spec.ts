@@ -27,3 +27,20 @@ test('reduced motion keeps the full lesson usable', async ({ page }) => {
   await expect(page.locator('[data-motion]')).toHaveAttribute('data-motion', 'reduced')
   await expect(page.locator('[data-control="step"]')).toBeVisible()
 })
+
+test('reader can slow the hand and keep the table in view while reading', async ({ page }) => {
+  await page.goto('/start/first-hand')
+  const speed = page.locator('[data-control="speed"]')
+  await expect(speed).toHaveValue('0.75')
+  await speed.fill('0.5')
+  await expect(page.locator('[data-speed-label]')).toHaveText('0.5×')
+
+  await page.getByRole('heading', { name: '翻牌：你还没有成牌' }).scrollIntoViewIfNeeded()
+  const demo = page.locator('[data-motion]')
+  await expect(demo).toHaveAttribute('data-floating', 'true')
+  await expect(page.locator('[data-control="dismiss-float"]')).toBeVisible()
+  await page.waitForTimeout(300)
+  await page.screenshot({ path: test.info().outputPath('first-hand-floating.png') })
+  await page.locator('[data-control="dismiss-float"]').click()
+  await expect(demo).toHaveAttribute('data-floating', 'false')
+})

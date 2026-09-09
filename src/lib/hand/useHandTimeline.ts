@@ -6,6 +6,7 @@ export function useHandTimeline(hand: HandDefinition, intervalMs = 1100) {
   const frames = buildTimeline(hand)
   const index = ref(0)
   const playing = ref(false)
+  const currentIntervalMs = ref(intervalMs)
   let timer: ReturnType<typeof setInterval> | undefined
 
   const snapshot = computed(() => frames[index.value])
@@ -22,11 +23,21 @@ export function useHandTimeline(hand: HandDefinition, intervalMs = 1100) {
     if (finished.value) pause()
   }
 
+  function schedule() {
+    if (timer) clearInterval(timer)
+    timer = setInterval(step, currentIntervalMs.value)
+  }
+
   function play() {
     if (finished.value) index.value = 0
     if (playing.value) return
     playing.value = true
-    timer = setInterval(step, intervalMs)
+    schedule()
+  }
+
+  function setIntervalMs(nextIntervalMs: number) {
+    currentIntervalMs.value = Math.max(50, nextIntervalMs)
+    if (playing.value) schedule()
   }
 
   function restart() {
@@ -35,5 +46,5 @@ export function useHandTimeline(hand: HandDefinition, intervalMs = 1100) {
   }
 
   if (getCurrentInstance()) onBeforeUnmount(pause)
-  return { frames, index, snapshot, playing, finished, play, pause, step, restart }
+  return { frames, index, snapshot, playing, finished, currentIntervalMs, play, pause, step, restart, setIntervalMs }
 }
