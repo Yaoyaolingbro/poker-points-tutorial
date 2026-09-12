@@ -10,12 +10,17 @@ import BestFiveChallenge from '@/components/lesson/BestFiveChallenge.vue'
 import PositionOrbit from '@/components/lesson/PositionOrbit.vue'
 import ActionPotDemo from '@/components/lesson/ActionPotDemo.vue'
 import StackDepthLab from '@/components/labs/StackDepthLab.vue'
+import StartingHandMatrix from '@/components/labs/StartingHandMatrix.vue'
+import FlopOutcomeExplorer from '@/components/labs/FlopOutcomeExplorer.vue'
+import EquityExplorer from '@/components/labs/EquityExplorer.vue'
+import PreflopPlan from '@/components/labs/PreflopPlan.vue'
 import DecisionDrill from '@/components/lesson/DecisionDrill.vue'
 import './styles/tokens.css'
 import './styles/base.css'
 import './styles/table.css'
 import './styles/labs.css'
 import './styles/lessons.css'
+import './styles/preflop.css'
 
 export default {
   extends: DefaultTheme,
@@ -30,6 +35,10 @@ export default {
     app.component('PositionOrbit', PositionOrbit)
     app.component('ActionPotDemo', ActionPotDemo)
     app.component('StackDepthLab', StackDepthLab)
+    app.component('StartingHandMatrix', StartingHandMatrix)
+    app.component('FlopOutcomeExplorer', FlopOutcomeExplorer)
+    app.component('EquityExplorer', EquityExplorer)
+    app.component('PreflopPlan', PreflopPlan)
     app.component('DecisionDrill', DecisionDrill)
   }
 } satisfies Theme

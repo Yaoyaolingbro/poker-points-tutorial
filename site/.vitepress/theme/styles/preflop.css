@@ -1,0 +1,65 @@
+.pp-starting-matrix,
+.pp-outcome-explorer,
+.pp-equity-explorer,
+.pp-preflop-plan { margin: 32px 0; padding: clamp(18px, 3vw, 30px); border: 1px solid rgba(23,33,30,.18); background: #f8f5ed; }
+.pp-matrix-grid,
+.pp-range-grid { display: grid; grid-template-columns: repeat(13, minmax(36px, 1fr)); gap: 3px; }
+.pp-matrix-grid button { aspect-ratio: 1; padding: 0; border: 1px solid rgba(23,33,30,.12); color: var(--pp-ink); background: #eee9dd; font-size: 11px; font-weight: 800; cursor: pointer; }
+.pp-matrix-grid button.is-pair { background: #d7c28f; }
+.pp-matrix-grid button.is-suited { background: #c9ddd4; }
+.pp-matrix-grid button.is-offsuit { background: #e6ddd0; }
+.pp-matrix-grid button[aria-pressed="true"] { position: relative; z-index: 1; outline: 3px solid var(--pp-red); outline-offset: -2px; }
+.pp-matrix-grid button:focus-visible { outline: 3px solid #1b66c9; outline-offset: 1px; }
+.pp-matrix-legend,
+.pp-plan-key { display: flex; margin-top: 12px; flex-wrap: wrap; gap: 14px; font-size: 12px; }
+.pp-matrix-legend span::before,
+.pp-plan-key span::before { display: inline-block; width: 10px; height: 10px; margin-right: 6px; content: ''; background: #ddd; }
+.pp-matrix-legend .is-pair::before { background: #d7c28f; }
+.pp-matrix-legend .is-suited::before { background: #c9ddd4; }
+.pp-matrix-legend .is-offsuit::before { background: #e6ddd0; }
+.pp-hand-detail { display: grid; margin-top: 20px; padding: 18px; color: var(--pp-white); background: #173f34; grid-template-columns: auto 1fr 1fr; align-items: baseline; gap: 8px 20px; }
+.pp-hand-detail strong { color: var(--pp-brass); font-size: 28px; }
+.pp-hand-detail small { grid-column: 1 / -1; color: rgba(255,255,255,.64); }
+.pp-preset-hands,
+.pp-plan-tabs { display: flex; margin: 20px 0; flex-wrap: wrap; gap: 7px; }
+.pp-preset-hands button,
+.pp-plan-tabs button { padding: 8px 12px; border: 1px solid rgba(23,33,30,.25); color: var(--pp-ink); background: transparent; cursor: pointer; }
+.pp-preset-hands button[aria-pressed="true"],
+.pp-plan-tabs button[aria-selected="true"] { color: var(--pp-white); background: var(--pp-ink); }
+.pp-outcome-rows { display: grid; gap: 9px; }
+.pp-outcome-rows > div { display: grid; grid-template-columns: 126px 1fr 55px; align-items: center; gap: 10px; }
+.pp-outcome-rows span small { display: block; color: var(--pp-ink-soft); font-size: 10px; }
+.pp-outcome-rows div div { overflow: hidden; height: 9px; background: #e2ddd1; }
+.pp-outcome-rows i { display: block; height: 100%; background: #2f765f; }
+.pp-outcome-rows strong { text-align: right; font-size: 12px; }
+.pp-opponent-control { display: grid; margin: 22px 0; gap: 8px; }
+.pp-equity-numbers { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: rgba(23,33,30,.15); }
+.pp-equity-numbers > div { display: grid; padding: 18px; background: #fff; gap: 4px; }
+.pp-equity-numbers small { color: var(--pp-ink-soft); }
+.pp-equity-numbers strong { font-size: clamp(19px, 4vw, 29px); }
+.pp-equity-numbers .is-equity { color: var(--pp-white); background: #173f34; }
+.pp-equity-numbers .is-equity small { color: rgba(255,255,255,.65); }
+.pp-equity-numbers .is-equity strong { color: var(--pp-brass); }
+.pp-lab-footnote { margin-bottom: 0; color: var(--pp-ink-soft); font-size: 12px; }
+.pp-data-error { padding: 18px; border-left: 4px solid var(--pp-red); background: #fff; }
+.pp-range-grid span { display: grid; aspect-ratio: 1; border: 1px solid rgba(23,33,30,.08); background: #e9e5db; place-items: center; font-size: 10px; font-weight: 750; }
+.pp-range-grid span.is-raise { color: #fff; background: #9b3b33; }
+.pp-range-grid span.is-call { color: #fff; background: #2f765f; }
+.pp-plan-key .is-raise::before { background: #9b3b33; }
+.pp-plan-key .is-call::before { background: #2f765f; }
+.pp-plan-key .is-fold::before { background: #e9e5db; }
+
+@media (max-width: 620px) {
+  .pp-starting-matrix,
+  .pp-outcome-explorer,
+  .pp-equity-explorer,
+  .pp-preflop-plan { margin-right: calc(50% - 50vw); margin-left: calc(50% - 50vw); border-right: 0; border-left: 0; }
+  .pp-matrix-grid,
+  .pp-range-grid { gap: 2px; }
+  .pp-matrix-grid button,
+  .pp-range-grid span { min-width: 0; font-size: 8px; }
+  .pp-hand-detail { grid-template-columns: 1fr 1fr; }
+  .pp-hand-detail strong { grid-row: 1 / span 2; }
+  .pp-equity-numbers { grid-template-columns: 1fr; }
+  .pp-outcome-rows > div { grid-template-columns: 105px 1fr 48px; }
+}

@@ -4,5 +4,5 @@
   "evaluatorVersion": 1,
   "flopMethod": "exhaustive C(50,3)",
   "equityModel": "random opponents, no folds, five-card board",
-  "generatedAt": "2026-09-12T03:34:29.072Z"
+  "generatedAt": "2026-09-12T03:45:19.482Z"
 }

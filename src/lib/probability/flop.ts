@@ -47,10 +47,9 @@ function hasGutshotDraw(cards: readonly number[]): boolean {
   return windows.some((window) => window.filter((rank) => ranks.has(rank)).length === 4)
 }
 
-function hasPair(cards: readonly number[]): boolean {
-  const counts = new Map<number, number>()
-  for (const card of cards) counts.set(rankOf(card), (counts.get(rankOf(card)) ?? 0) + 1)
-  return [...counts.values()].some((count) => count >= 2)
+function hasPairWithHole(hole: readonly number[], flop: readonly number[]): boolean {
+  const holeRanks = hole.map(rankOf)
+  return holeRanks[0] === holeRanks[1] || flop.some((card) => holeRanks.includes(rankOf(card)))
 }
 
 export function enumerateFlops(handId: string): FlopOutcome {
@@ -62,14 +61,15 @@ export function enumerateFlops(handId: string): FlopOutcome {
   for (let first = 0; first < deck.length - 2; first += 1) {
     for (let second = first + 1; second < deck.length - 1; second += 1) {
       for (let third = second + 1; third < deck.length; third += 1) {
-        const cards = [...hole, deck[first], deck[second], deck[third]]
+        const flop = [deck[first], deck[second], deck[third]]
+        const cards = [...hole, ...flop]
         made[scoreCards(cards).category] += 1
         const suitCounts = [0, 0, 0, 0]
         cards.forEach((card) => { suitCounts[suitOf(card)] += 1 })
         const flushDraw = Math.max(...suitCounts) === 4
         const openEnded = hasOpenEndedDraw(cards)
         const gutshot = hasGutshotDraw(cards)
-        const pair = hasPair(cards)
+        const pair = hasPairWithHole(hole, flop)
         if (flushDraw) draws.flushDraw += 1
         if (openEnded) draws.openEnded += 1
         if (gutshot) draws.gutshot += 1
