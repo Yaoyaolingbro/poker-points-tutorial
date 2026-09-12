@@ -10,9 +10,15 @@ export function hitByRiver(outs: number, unseenCards = 47): number {
 }
 
 export function breakEvenEquity(currentPot: number, callAmount: number): number {
+  if (currentPot < 0 || callAmount < 0 || currentPot + callAmount === 0) {
+    throw new Error('pot and call must describe a positive decision')
+  }
   return callAmount / (currentPot + callAmount)
 }
 
 export function callEV(equity: number, currentPot: number, callAmount: number): number {
+  if (equity < 0 || equity > 1 || currentPot < 0 || callAmount < 0) {
+    throw new Error('equity, pot and call are outside their valid range')
+  }
   return equity * currentPot - (1 - equity) * callAmount
 }

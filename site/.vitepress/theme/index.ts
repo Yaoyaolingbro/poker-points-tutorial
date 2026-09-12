@@ -14,6 +14,8 @@ import StartingHandMatrix from '@/components/labs/StartingHandMatrix.vue'
 import FlopOutcomeExplorer from '@/components/labs/FlopOutcomeExplorer.vue'
 import EquityExplorer from '@/components/labs/EquityExplorer.vue'
 import PreflopPlan from '@/components/labs/PreflopPlan.vue'
+import OutsExplorer from '@/components/labs/OutsExplorer.vue'
+import EVRepeatChart from '@/components/labs/EVRepeatChart.vue'
 import DecisionDrill from '@/components/lesson/DecisionDrill.vue'
 import './styles/tokens.css'
 import './styles/base.css'
@@ -39,6 +41,8 @@ export default {
     app.component('FlopOutcomeExplorer', FlopOutcomeExplorer)
     app.component('EquityExplorer', EquityExplorer)
     app.component('PreflopPlan', PreflopPlan)
+    app.component('OutsExplorer', OutsExplorer)
+    app.component('EVRepeatChart', EVRepeatChart)
     app.component('DecisionDrill', DecisionDrill)
   }
 } satisfies Theme
