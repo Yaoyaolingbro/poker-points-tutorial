@@ -13,15 +13,22 @@ describe('site configuration', () => {
       '/basics/hand-rankings',
       '/basics/best-five',
       '/start/first-hand',
-      '/basics/action-order',
-      '/start/table-rules',
+      '/basics/positions',
+      '/basics/actions',
+      '/basics/stack-depth',
+      '/preflop/starting-hands',
+      '/preflop/flop-outcomes',
+      '/preflop/equity',
+      '/preflop/first-plan',
       '/math/outs',
       '/math/pot-odds',
+      '/math/ev',
       '/strategy/bet-purpose',
       '/strategy/deep-stacks',
       '/quick-reference',
       '/glossary',
-      '/resources'
+      '/resources',
+      '/sources'
     ])
   })
 })

@@ -24,7 +24,8 @@ export const siteConfig = defineConfig({
     nav: [
       { text: '开始', link: '/basics/hand-rankings' },
       { text: '速查', link: '/quick-reference' },
-      { text: '资源', link: '/resources' }
+      { text: '资源', link: '/resources' },
+      { text: '来源', link: '/sources' }
     ],
     sidebar: [
       {
@@ -38,15 +39,26 @@ export const siteConfig = defineConfig({
         text: '看懂一手牌',
         items: [
           { text: '三分钟一手牌', link: '/start/first-hand' },
-          { text: '位置与基础动作', link: '/basics/action-order' },
-          { text: '积分桌规则', link: '/start/table-rules' }
+          { text: '四个位置', link: '/basics/positions' },
+          { text: '五个基础动作', link: '/basics/actions' },
+          { text: '积分、BB 与有效筹码', link: '/basics/stack-depth' }
+        ]
+      },
+      {
+        text: '读懂翻前',
+        items: [
+          { text: '169 种起手牌', link: '/preflop/starting-hands' },
+          { text: '翻牌会中什么', link: '/preflop/flop-outcomes' },
+          { text: '随机对手权益', link: '/preflop/equity' },
+          { text: '第一套翻前计划', link: '/preflop/first-plan' }
         ]
       },
       {
         text: '把数字算清',
         items: [
           { text: 'Outs 与胜率', link: '/math/outs' },
-          { text: '底池赔率', link: '/math/pot-odds' }
+          { text: '底池赔率', link: '/math/pot-odds' },
+          { text: 'EV 与长期结果', link: '/math/ev' }
         ]
       },
       {
@@ -61,7 +73,8 @@ export const siteConfig = defineConfig({
         items: [
           { text: '两分钟速查', link: '/quick-reference' },
           { text: '术语表', link: '/glossary' },
-          { text: '英文资源', link: '/resources' }
+          { text: '英文资源', link: '/resources' },
+          { text: '数字与素材来源', link: '/sources' }
         ]
       }
     ],

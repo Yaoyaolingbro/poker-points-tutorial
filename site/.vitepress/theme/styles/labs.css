@@ -8,7 +8,8 @@
 }
 
 .pp-outs-explorer,
-.pp-ev-lab {
+.pp-ev-lab,
+.pp-stack-risk {
   margin: 32px 0;
   padding: clamp(24px, 4vw, 42px);
   border: 1px solid rgba(23,33,30,.18);
@@ -16,6 +17,19 @@
   background: rgba(255,253,248,.7);
   box-shadow: 10px 10px 0 var(--pp-paper-deep);
 }
+.pp-stack-risk-table { display: grid; padding: clamp(18px, 3vw, 28px); color: var(--pp-white); background: #173f34; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+.pp-stack-risk-cards { display: grid; gap: 8px; }
+.pp-stack-risk-cards small { color: rgba(255,255,255,.62); font-weight: 750; }
+.pp-stack-risk-cards > span { display: flex; gap: 7px; }
+.pp-stack-risk-control { display: grid; margin: 22px 0; gap: 9px; }
+.pp-stack-risk-control > span:first-child { display: flex; justify-content: space-between; }
+.pp-stack-risk-control input { width: 100%; accent-color: var(--pp-red); }
+.pp-stack-risk-marks { display: flex; color: var(--pp-ink-soft); justify-content: space-between; font-size: 10px; }
+.pp-stack-risk-marks i { font-style: normal; }
+.pp-stack-risk-readout { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1px; background: rgba(23,33,30,.15); }
+.pp-stack-risk-readout p { display: grid; margin: 0; padding: 16px; background: var(--pp-paper); gap: 5px; }
+.pp-stack-risk-readout span { color: var(--pp-ink-soft); font-size: 11px; }
+.pp-stack-risk-readout strong { font: 800 clamp(19px, 3vw, 27px)/1 var(--vp-font-family-mono); }
 .pp-draw-tabs { display: flex; margin: 0 0 20px; flex-wrap: wrap; gap: 7px; }
 .pp-draw-tabs button { padding: 8px 11px; border: 1px solid rgba(23,33,30,.25); color: inherit; background: transparent; cursor: pointer; }
 .pp-draw-tabs button[aria-pressed="true"] { color: var(--pp-white); background: var(--pp-ink); }
@@ -67,10 +81,13 @@
   .pp-lab-results { grid-template-columns: 1fr; }
   .pp-lab-results p { flex-direction: row; justify-content: space-between; }
   .pp-outs-explorer,
-  .pp-ev-lab { margin-right: calc(50% - 50vw); margin-left: calc(50% - 50vw); border-right: 0; border-left: 0; }
+  .pp-ev-lab,
+  .pp-stack-risk { margin-right: calc(50% - 50vw); margin-left: calc(50% - 50vw); border-right: 0; border-left: 0; }
   .pp-draw-table { grid-template-columns: 1fr; }
   .pp-draw-numbers,
-  .pp-ev-results { grid-template-columns: 1fr; }
+  .pp-ev-results,
+  .pp-stack-risk-readout { grid-template-columns: 1fr; }
+  .pp-stack-risk-table { grid-template-columns: 1fr; }
   .pp-ev-strip { grid-template-columns: repeat(10, 1fr); }
 }
 

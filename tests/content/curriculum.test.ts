@@ -5,14 +5,23 @@ import { siteConfig } from '../../site/.vitepress/config.mts'
 const lessonRoutes = [
   '/basics/hand-rankings',
   '/basics/best-five',
-  '/basics/action-order',
+  '/start/first-hand',
+  '/basics/positions',
+  '/basics/actions',
+  '/basics/stack-depth',
+  '/preflop/starting-hands',
+  '/preflop/flop-outcomes',
+  '/preflop/equity',
+  '/preflop/first-plan',
   '/math/outs',
   '/math/pot-odds',
+  '/math/ev',
   '/strategy/bet-purpose',
   '/strategy/deep-stacks',
   '/quick-reference',
   '/glossary',
-  '/resources'
+  '/resources',
+  '/sources'
 ]
 
 describe('core curriculum', () => {
@@ -53,5 +62,16 @@ describe('core curriculum', () => {
     expect(bestFive).toContain('永远只选最好的五张')
     expect(bestFive).toContain('牌型表里没有“三对”')
     expect(bestFive).toContain('牌面四张红桃')
+  })
+
+  it('documents the reproducible probability source and deep-stack exercise', async () => {
+    const [sources, deep] = await Promise.all([
+      readFile('site/sources.md', 'utf8'),
+      readFile('site/strategy/deep-stacks.md', 'utf8')
+    ])
+    expect(sources).toContain('20260912')
+    expect(sources).toContain('100,000')
+    expect(sources).toContain('SVGCards')
+    expect(deep).toContain('<StackRiskLab />')
   })
 })

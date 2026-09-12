@@ -16,6 +16,7 @@ import EquityExplorer from '@/components/labs/EquityExplorer.vue'
 import PreflopPlan from '@/components/labs/PreflopPlan.vue'
 import OutsExplorer from '@/components/labs/OutsExplorer.vue'
 import EVRepeatChart from '@/components/labs/EVRepeatChart.vue'
+import StackRiskLab from '@/components/labs/StackRiskLab.vue'
 import DecisionDrill from '@/components/lesson/DecisionDrill.vue'
 import './styles/tokens.css'
 import './styles/base.css'
@@ -43,6 +44,7 @@ export default {
     app.component('PreflopPlan', PreflopPlan)
     app.component('OutsExplorer', OutsExplorer)
     app.component('EVRepeatChart', EVRepeatChart)
+    app.component('StackRiskLab', StackRiskLab)
     app.component('DecisionDrill', DecisionDrill)
   }
 } satisfies Theme

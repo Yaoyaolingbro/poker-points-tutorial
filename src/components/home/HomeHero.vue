@@ -19,8 +19,8 @@ import PlayingCard from '@/components/cards/PlayingCard.vue'
         <h1>牌已经发下来了。<br><em>你先做决定。</em></h1>
         <p class="pp-lead">小盲 10，大盲 20。这里不先塞给你一整本术语表，每节只解决一个牌桌问题。</p>
         <div class="pp-hero-actions">
-          <a class="pp-primary-action" :href="withBase('/start/table-rules')">
-            <span>坐下，开始第一手</span>
+          <a class="pp-primary-action" :href="withBase('/basics/hand-rankings')">
+            <span>先学会比大小</span>
             <span aria-hidden="true">→</span>
           </a>
           <span class="pp-stack-note">100BB = 2000 积分</span>

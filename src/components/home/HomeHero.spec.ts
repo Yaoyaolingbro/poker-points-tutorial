@@ -10,6 +10,6 @@ describe('HomeHero', () => {
     const { default: HomeHero } = await import('./HomeHero.vue')
     const wrapper = mount(HomeHero)
     expect(wrapper.text()).toContain('牌已经发下来了')
-    expect(wrapper.get('.pp-primary-action').attributes('href')).toBe('/start/table-rules')
+    expect(wrapper.get('.pp-primary-action').attributes('href')).toBe('/basics/hand-rankings')
   })
 })
