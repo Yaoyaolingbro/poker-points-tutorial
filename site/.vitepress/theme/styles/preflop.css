@@ -3,7 +3,7 @@
 .pp-equity-explorer,
 .pp-preflop-plan { margin: 32px 0; padding: clamp(18px, 3vw, 30px); border: 1px solid rgba(23,33,30,.18); background: #f8f5ed; }
 .pp-matrix-grid,
-.pp-range-grid { display: grid; grid-template-columns: repeat(13, minmax(36px, 1fr)); gap: 3px; }
+.pp-range-grid { display: grid; grid-template-columns: repeat(13, minmax(0, 1fr)); gap: 3px; }
 .pp-matrix-grid button { aspect-ratio: 1; padding: 0; border: 1px solid rgba(23,33,30,.12); color: var(--pp-ink); background: #eee9dd; font-size: 11px; font-weight: 800; cursor: pointer; }
 .pp-matrix-grid button.is-pair { background: #d7c28f; }
 .pp-matrix-grid button.is-suited { background: #c9ddd4; }
