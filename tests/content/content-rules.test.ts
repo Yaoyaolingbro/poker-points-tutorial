@@ -12,7 +12,10 @@ describe('public lesson copy rules', () => {
     '赢了 $10',
     '可以提现',
     '让我们深入探讨这个概念',
-    '综上所述，这手牌很简单'
+    '综上所述，这手牌很简单',
+    '本章将介绍十种牌型',
+    '这个概念至关重要',
+    '不难发现他已经输了'
   ])('rejects banned wording: %s', (copy) => {
     expect(findContentViolations(copy, 'site/start/hand.md')).not.toEqual([])
   })

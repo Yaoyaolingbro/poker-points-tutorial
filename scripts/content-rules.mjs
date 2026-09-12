@@ -10,7 +10,10 @@ const TEMPLATE_PATTERNS = [
   /综上所述/u,
   /总而言之/u,
   /让我们深入探讨/u,
-  /在当今/u
+  /在当今/u,
+  /本章将/u,
+  /至关重要/u,
+  /不难发现/u
 ]
 
 export function findContentViolations(text, file) {
