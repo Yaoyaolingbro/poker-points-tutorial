@@ -1,5 +1,26 @@
 import { expect, test } from '@playwright/test'
 
+const publicRoutes = [
+  '/basics/hand-rankings', '/basics/best-five', '/start/first-hand',
+  '/basics/positions', '/basics/actions', '/basics/stack-depth',
+  '/preflop/starting-hands', '/preflop/flop-outcomes', '/preflop/equity', '/preflop/first-plan',
+  '/math/outs', '/math/pot-odds', '/math/ev',
+  '/strategy/bet-purpose', '/strategy/deep-stacks',
+  '/quick-reference', '/glossary', '/resources', '/sources'
+]
+
+test('every published route has a heading and no page overflow', async ({ page }) => {
+  for (const route of publicRoutes) {
+    await page.goto(route)
+    await expect(page.locator('h1')).toBeVisible()
+    const width = await page.evaluate(() => ({
+      scroll: document.documentElement.scrollWidth,
+      client: document.documentElement.clientWidth
+    }))
+    expect(width.scroll, `${route} overflows horizontally`).toBeLessThanOrEqual(width.client)
+  }
+})
+
 test('the first two chapters teach ranking then best five', async ({ page }) => {
   await page.goto('/basics/hand-rankings')
   await expect(page.locator('[data-hand-rank]')).toHaveCount(10)
@@ -30,6 +51,45 @@ test('odds lab is usable', async ({ page }) => {
   await expect(page.locator('[data-verdict]')).toContainText('赔率不够')
   await page.evaluate(() => window.scrollTo(0, 0))
   await page.screenshot({ path: test.info().outputPath('pot-odds.png'), fullPage: true })
+})
+
+test('preflop probability tools respond to the reader', async ({ page }) => {
+  await page.goto('/preflop/starting-hands')
+  await expect(page.locator('[data-starting-hand]')).toHaveCount(169)
+  await page.locator('[data-starting-hand="AA"]').click()
+  await expect(page.locator('[data-hand-detail]')).toContainText('6 个具体组合')
+
+  await page.goto('/preflop/flop-outcomes')
+  await page.locator('[data-preset="22"]').click()
+  await expect(page.locator('[data-selected-hand]')).toHaveText('22')
+  await expect(page.locator('[data-flop-total]')).toContainText('19,600')
+
+  await page.goto('/preflop/equity')
+  await page.locator('[data-opponent-slider]').fill('7')
+  await expect(page.locator('[data-opponent-count]')).toContainText('7 名随机对手')
+})
+
+test('position, action, draw and depth labs change state', async ({ page }) => {
+  await page.goto('/basics/positions')
+  await expect(page.locator('[data-seat]')).toHaveCount(6)
+  await page.locator('[data-player-count]').fill('8')
+  await expect(page.locator('[data-seat]')).toHaveCount(8)
+  await page.locator('[data-street="postflop"]').click()
+  await expect(page.locator('[data-order-note]')).toContainText('庄家位最后行动')
+
+  await page.goto('/basics/actions')
+  await page.locator('[data-scenario="facing-bet"]').click()
+  await expect(page.locator('[data-action="check"]')).toBeDisabled()
+  await expect(page.locator('[data-call-note]')).toContainText('再补 40')
+
+  await page.goto('/math/outs')
+  await page.locator('[data-draw-scenario="pair-flush"]').click()
+  await expect(page.locator('[data-draw-title]')).toContainText('带对抽同花')
+  await expect(page.locator('[data-by-river]')).toContainText('34.97%')
+
+  await page.goto('/strategy/deep-stacks')
+  await page.locator('[data-depth-control]').fill('200')
+  await expect(page.locator('[data-stack-risk]')).toContainText('30.3')
 })
 
 test('best-five exercise stays usable on a narrow screen', async ({ page }) => {
