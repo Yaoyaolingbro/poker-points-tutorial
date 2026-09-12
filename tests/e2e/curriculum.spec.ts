@@ -9,7 +9,10 @@ const publicRoutes = [
   '/quick-reference', '/glossary', '/resources', '/sources'
 ]
 
-test('every published route has a heading and no page overflow', async ({ page }) => {
+test('every published route has a heading and no page overflow', async ({ page }, testInfo) => {
+  if (testInfo.project.name === 'mobile-chromium') {
+    await page.setViewportSize({ width: 390, height: 844 })
+  }
   for (const route of publicRoutes) {
     await page.goto(route)
     await expect(page.locator('h1')).toBeVisible()
