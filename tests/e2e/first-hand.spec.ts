@@ -5,7 +5,7 @@ test('reader can enter the course and step through the hand', async ({ page }) =
   await expect(page.getByRole('heading', { name: /牌已经发下来了/ })).toBeVisible()
   await page.screenshot({ path: test.info().outputPath('home.png'), fullPage: true })
   await page.getByRole('link', { name: '先学会比大小' }).click()
-  await expect(page.getByRole('heading', { name: '先别看自己的 A' })).toBeVisible()
+  await expect(page.getByRole('heading', { name: '先别下注：这两手谁大？' })).toBeVisible()
   await page.goto('/start/first-hand')
   await page.locator('[data-control="restart"]').click()
   await expect(page.locator('[data-seat]')).toHaveCount(6)
