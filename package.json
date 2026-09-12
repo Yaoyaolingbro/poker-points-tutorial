@@ -13,6 +13,7 @@
     "test": "vitest",
     "test:run": "vitest run",
     "test:e2e": "playwright test",
+    "generate:probability": "node --experimental-strip-types scripts/generate-probability-data.mts",
     "check:content": "node scripts/check-content.mjs",
     "check": "npm run check:content && npm run test:run"
   },

@@ -1,4 +1,4 @@
-import { rankOf, suitOf } from './deck'
+import { rankOf, suitOf } from './deck.ts'
 
 export type HandCategory = '高牌' | '一对' | '两对' | '三条' | '顺子' | '同花' | '葫芦' | '四条' | '同花顺'
 

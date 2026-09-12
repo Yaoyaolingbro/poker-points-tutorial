@@ -1,0 +1,1523 @@
+{
+  "AA": {
+    "1": {"opponents":1,"trials":100000,"win":0.847790,"tie":0.005550,"equity":0.850565},
+    "2": {"opponents":2,"trials":100000,"win":0.729880,"tie":0.005890,"equity":0.732277},
+    "3": {"opponents":3,"trials":100000,"win":0.634030,"tie":0.005750,"equity":0.636297},
+    "4": {"opponents":4,"trials":100000,"win":0.555060,"tie":0.005780,"equity":0.557327},
+    "5": {"opponents":5,"trials":100000,"win":0.488790,"tie":0.005670,"equity":0.491065},
+    "6": {"opponents":6,"trials":100000,"win":0.433710,"tie":0.005490,"equity":0.435929},
+    "7": {"opponents":7,"trials":100000,"win":0.385510,"tie":0.005360,"equity":0.387720}
+  },
+  "AKs": {
+    "1": {"opponents":1,"trials":100000,"win":0.664290,"tie":0.017300,"equity":0.672940},
+    "2": {"opponents":2,"trials":100000,"win":0.498860,"tie":0.019950,"equity":0.508087},
+    "3": {"opponents":3,"trials":100000,"win":0.403030,"tie":0.020150,"equity":0.412178},
+    "4": {"opponents":4,"trials":100000,"win":0.343800,"tie":0.020270,"equity":0.352964},
+    "5": {"opponents":5,"trials":100000,"win":0.301130,"tie":0.019810,"equity":0.310053},
+    "6": {"opponents":6,"trials":100000,"win":0.267000,"tie":0.019530,"equity":0.275821},
+    "7": {"opponents":7,"trials":100000,"win":0.239870,"tie":0.019570,"equity":0.248725}
+  },
+  "AQs": {
+    "1": {"opponents":1,"trials":100000,"win":0.654290,"tie":0.017360,"equity":0.662970},
+    "2": {"opponents":2,"trials":100000,"win":0.486650,"tie":0.021430,"equity":0.496663},
+    "3": {"opponents":3,"trials":100000,"win":0.391640,"tie":0.022680,"equity":0.402078},
+    "4": {"opponents":4,"trials":100000,"win":0.328000,"tie":0.023400,"equity":0.338778},
+    "5": {"opponents":5,"trials":100000,"win":0.284720,"tie":0.023550,"equity":0.295517},
+    "6": {"opponents":6,"trials":100000,"win":0.251070,"tie":0.023060,"equity":0.261655},
+    "7": {"opponents":7,"trials":100000,"win":0.224460,"tie":0.022650,"equity":0.234828}
+  },
+  "AJs": {
+    "1": {"opponents":1,"trials":100000,"win":0.640460,"tie":0.020790,"equity":0.650855},
+    "2": {"opponents":2,"trials":100000,"win":0.466710,"tie":0.024580,"equity":0.478200},
+    "3": {"opponents":3,"trials":100000,"win":0.369560,"tie":0.025740,"equity":0.381342},
+    "4": {"opponents":4,"trials":100000,"win":0.308350,"tie":0.026090,"equity":0.320258},
+    "5": {"opponents":5,"trials":100000,"win":0.264680,"tie":0.026210,"equity":0.276648},
+    "6": {"opponents":6,"trials":100000,"win":0.232390,"tie":0.025960,"equity":0.244166},
+    "7": {"opponents":7,"trials":100000,"win":0.206650,"tie":0.025660,"equity":0.218222}
+  },
+  "ATs": {
+    "1": {"opponents":1,"trials":100000,"win":0.633700,"tie":0.021730,"equity":0.644565},
+    "2": {"opponents":2,"trials":100000,"win":0.457180,"tie":0.027170,"equity":0.469980},
+    "3": {"opponents":3,"trials":100000,"win":0.357150,"tie":0.028710,"equity":0.370425},
+    "4": {"opponents":4,"trials":100000,"win":0.295640,"tie":0.028500,"equity":0.308723},
+    "5": {"opponents":5,"trials":100000,"win":0.252960,"tie":0.028740,"equity":0.266110},
+    "6": {"opponents":6,"trials":100000,"win":0.221420,"tie":0.028700,"equity":0.234511},
+    "7": {"opponents":7,"trials":100000,"win":0.196260,"tie":0.028690,"equity":0.209267}
+  },
+  "A9s": {
+    "1": {"opponents":1,"trials":100000,"win":0.613510,"tie":0.025320,"equity":0.626170},
+    "2": {"opponents":2,"trials":100000,"win":0.429800,"tie":0.029960,"equity":0.444045},
+    "3": {"opponents":3,"trials":100000,"win":0.329600,"tie":0.031040,"equity":0.344077},
+    "4": {"opponents":4,"trials":100000,"win":0.269010,"tie":0.030700,"equity":0.283207},
+    "5": {"opponents":5,"trials":100000,"win":0.227740,"tie":0.029920,"equity":0.241475},
+    "6": {"opponents":6,"trials":100000,"win":0.197440,"tie":0.028770,"equity":0.210574},
+    "7": {"opponents":7,"trials":100000,"win":0.175140,"tie":0.028210,"equity":0.187954}
+  },
+  "A8s": {
+    "1": {"opponents":1,"trials":100000,"win":0.606460,"tie":0.028310,"equity":0.620615},
+    "2": {"opponents":2,"trials":100000,"win":0.419750,"tie":0.032970,"equity":0.435425},
+    "3": {"opponents":3,"trials":100000,"win":0.319760,"tie":0.033670,"equity":0.335477},
+    "4": {"opponents":4,"trials":100000,"win":0.260600,"tie":0.032590,"equity":0.275640},
+    "5": {"opponents":5,"trials":100000,"win":0.220350,"tie":0.031670,"equity":0.234893},
+    "6": {"opponents":6,"trials":100000,"win":0.191470,"tie":0.030600,"equity":0.205422},
+    "7": {"opponents":7,"trials":100000,"win":0.168760,"tie":0.029530,"equity":0.182158}
+  },
+  "A7s": {
+    "1": {"opponents":1,"trials":100000,"win":0.593830,"tie":0.031570,"equity":0.609615},
+    "2": {"opponents":2,"trials":100000,"win":0.405220,"tie":0.037530,"equity":0.423165},
+    "3": {"opponents":3,"trials":100000,"win":0.305150,"tie":0.037630,"equity":0.322850},
+    "4": {"opponents":4,"trials":100000,"win":0.244550,"tie":0.036320,"equity":0.261463},
+    "5": {"opponents":5,"trials":100000,"win":0.206330,"tie":0.034860,"equity":0.222459},
+    "6": {"opponents":6,"trials":100000,"win":0.178050,"tie":0.034250,"equity":0.193855},
+    "7": {"opponents":7,"trials":100000,"win":0.157120,"tie":0.032760,"equity":0.172083}
+  },
+  "A6s": {
+    "1": {"opponents":1,"trials":100000,"win":0.578500,"tie":0.035030,"equity":0.596015},
+    "2": {"opponents":2,"trials":100000,"win":0.390180,"tie":0.038680,"equity":0.408658},
+    "3": {"opponents":3,"trials":100000,"win":0.292570,"tie":0.038270,"equity":0.310492},
+    "4": {"opponents":4,"trials":100000,"win":0.235130,"tie":0.036800,"equity":0.252200},
+    "5": {"opponents":5,"trials":100000,"win":0.197580,"tie":0.035660,"equity":0.214027},
+    "6": {"opponents":6,"trials":100000,"win":0.171200,"tie":0.034500,"equity":0.187002},
+    "7": {"opponents":7,"trials":100000,"win":0.151340,"tie":0.033450,"equity":0.166598}
+  },
+  "A5s": {
+    "1": {"opponents":1,"trials":100000,"win":0.581250,"tie":0.036500,"equity":0.599500},
+    "2": {"opponents":2,"trials":100000,"win":0.394810,"tie":0.041340,"equity":0.414572},
+    "3": {"opponents":3,"trials":100000,"win":0.297870,"tie":0.041010,"equity":0.317148},
+    "4": {"opponents":4,"trials":100000,"win":0.242210,"tie":0.039600,"equity":0.260668},
+    "5": {"opponents":5,"trials":100000,"win":0.205030,"tie":0.037940,"equity":0.222587},
+    "6": {"opponents":6,"trials":100000,"win":0.177750,"tie":0.036740,"equity":0.194667},
+    "7": {"opponents":7,"trials":100000,"win":0.157110,"tie":0.035660,"equity":0.173461}
+  },
+  "A4s": {
+    "1": {"opponents":1,"trials":100000,"win":0.572410,"tie":0.038330,"equity":0.591575},
+    "2": {"opponents":2,"trials":100000,"win":0.387490,"tie":0.040820,"equity":0.406993},
+    "3": {"opponents":3,"trials":100000,"win":0.295000,"tie":0.039290,"equity":0.313407},
+    "4": {"opponents":4,"trials":100000,"win":0.238640,"tie":0.037740,"equity":0.256166},
+    "5": {"opponents":5,"trials":100000,"win":0.201980,"tie":0.036780,"equity":0.218955},
+    "6": {"opponents":6,"trials":100000,"win":0.175750,"tie":0.035590,"equity":0.192183},
+    "7": {"opponents":7,"trials":100000,"win":0.156130,"tie":0.034680,"equity":0.172093}
+  },
+  "A3s": {
+    "1": {"opponents":1,"trials":100000,"win":0.561210,"tie":0.039140,"equity":0.580780},
+    "2": {"opponents":2,"trials":100000,"win":0.376000,"tie":0.041140,"equity":0.395628},
+    "3": {"opponents":3,"trials":100000,"win":0.282950,"tie":0.038420,"equity":0.300933},
+    "4": {"opponents":4,"trials":100000,"win":0.229410,"tie":0.036650,"equity":0.246419},
+    "5": {"opponents":5,"trials":100000,"win":0.194740,"tie":0.034450,"equity":0.210658},
+    "6": {"opponents":6,"trials":100000,"win":0.170500,"tie":0.033230,"equity":0.185779},
+    "7": {"opponents":7,"trials":100000,"win":0.152560,"tie":0.031940,"equity":0.167150}
+  },
+  "A2s": {
+    "1": {"opponents":1,"trials":100000,"win":0.554040,"tie":0.036330,"equity":0.572205},
+    "2": {"opponents":2,"trials":100000,"win":0.366360,"tie":0.039610,"equity":0.385258},
+    "3": {"opponents":3,"trials":100000,"win":0.273760,"tie":0.037560,"equity":0.291327},
+    "4": {"opponents":4,"trials":100000,"win":0.221470,"tie":0.035430,"equity":0.237870},
+    "5": {"opponents":5,"trials":100000,"win":0.187800,"tie":0.033770,"equity":0.203350},
+    "6": {"opponents":6,"trials":100000,"win":0.163590,"tie":0.031920,"equity":0.178231},
+    "7": {"opponents":7,"trials":100000,"win":0.146030,"tie":0.029650,"equity":0.159583}
+  },
+  "AKo": {
+    "1": {"opponents":1,"trials":100000,"win":0.647750,"tie":0.017160,"equity":0.656330},
+    "2": {"opponents":2,"trials":100000,"win":0.475440,"tie":0.020010,"equity":0.484793},
+    "3": {"opponents":3,"trials":100000,"win":0.376290,"tie":0.020600,"equity":0.385727},
+    "4": {"opponents":4,"trials":100000,"win":0.313210,"tie":0.021130,"equity":0.322768},
+    "5": {"opponents":5,"trials":100000,"win":0.267990,"tie":0.020570,"equity":0.277324},
+    "6": {"opponents":6,"trials":100000,"win":0.233380,"tie":0.020710,"equity":0.242768},
+    "7": {"opponents":7,"trials":100000,"win":0.205790,"tie":0.020070,"equity":0.214902}
+  },
+  "KK": {
+    "1": {"opponents":1,"trials":100000,"win":0.822440,"tie":0.005420,"equity":0.825150},
+    "2": {"opponents":2,"trials":100000,"win":0.685980,"tie":0.005760,"equity":0.688350},
+    "3": {"opponents":3,"trials":100000,"win":0.579430,"tie":0.005850,"equity":0.581729},
+    "4": {"opponents":4,"trials":100000,"win":0.496400,"tie":0.005800,"equity":0.498690},
+    "5": {"opponents":5,"trials":100000,"win":0.427590,"tie":0.005980,"equity":0.430022},
+    "6": {"opponents":6,"trials":100000,"win":0.372220,"tie":0.006110,"equity":0.374752},
+    "7": {"opponents":7,"trials":100000,"win":0.327580,"tie":0.006090,"equity":0.330182}
+  },
+  "KQs": {
+    "1": {"opponents":1,"trials":100000,"win":0.626620,"tie":0.019450,"equity":0.636345},
+    "2": {"opponents":2,"trials":100000,"win":0.462270,"tie":0.021420,"equity":0.472085},
+    "3": {"opponents":3,"trials":100000,"win":0.374560,"tie":0.021280,"equity":0.384087},
+    "4": {"opponents":4,"trials":100000,"win":0.318010,"tie":0.020950,"equity":0.327352},
+    "5": {"opponents":5,"trials":100000,"win":0.276900,"tie":0.021530,"equity":0.286521},
+    "6": {"opponents":6,"trials":100000,"win":0.245440,"tie":0.021410,"equity":0.255075},
+    "7": {"opponents":7,"trials":100000,"win":0.219010,"tie":0.021190,"equity":0.228544}
+  },
+  "KJs": {
+    "1": {"opponents":1,"trials":100000,"win":0.615930,"tie":0.021360,"equity":0.626610},
+    "2": {"opponents":2,"trials":100000,"win":0.446560,"tie":0.023640,"equity":0.457430},
+    "3": {"opponents":3,"trials":100000,"win":0.355800,"tie":0.024740,"equity":0.366990},
+    "4": {"opponents":4,"trials":100000,"win":0.298940,"tie":0.024320,"equity":0.309874},
+    "5": {"opponents":5,"trials":100000,"win":0.258580,"tie":0.024050,"equity":0.269383},
+    "6": {"opponents":6,"trials":100000,"win":0.227490,"tie":0.023870,"equity":0.238206},
+    "7": {"opponents":7,"trials":100000,"win":0.203050,"tie":0.023780,"equity":0.213757}
+  },
+  "KTs": {
+    "1": {"opponents":1,"trials":100000,"win":0.606860,"tie":0.024360,"equity":0.619040},
+    "2": {"opponents":2,"trials":100000,"win":0.435950,"tie":0.027810,"equity":0.448902},
+    "3": {"opponents":3,"trials":100000,"win":0.343590,"tie":0.027780,"equity":0.356220},
+    "4": {"opponents":4,"trials":100000,"win":0.286170,"tie":0.028130,"equity":0.298856},
+    "5": {"opponents":5,"trials":100000,"win":0.245980,"tie":0.028260,"equity":0.258748},
+    "6": {"opponents":6,"trials":100000,"win":0.215690,"tie":0.027690,"equity":0.228220},
+    "7": {"opponents":7,"trials":100000,"win":0.191850,"tie":0.027170,"equity":0.204133}
+  },
+  "K9s": {
+    "1": {"opponents":1,"trials":100000,"win":0.585710,"tie":0.026770,"equity":0.599095},
+    "2": {"opponents":2,"trials":100000,"win":0.408450,"tie":0.029610,"equity":0.422242},
+    "3": {"opponents":3,"trials":100000,"win":0.314870,"tie":0.029610,"equity":0.328388},
+    "4": {"opponents":4,"trials":100000,"win":0.257280,"tie":0.028510,"equity":0.270187},
+    "5": {"opponents":5,"trials":100000,"win":0.218580,"tie":0.027540,"equity":0.230988},
+    "6": {"opponents":6,"trials":100000,"win":0.190550,"tie":0.026430,"equity":0.202444},
+    "7": {"opponents":7,"trials":100000,"win":0.168440,"tie":0.026010,"equity":0.180083}
+  },
+  "K8s": {
+    "1": {"opponents":1,"trials":100000,"win":0.569140,"tie":0.030560,"equity":0.584420},
+    "2": {"opponents":2,"trials":100000,"win":0.386670,"tie":0.032820,"equity":0.402017},
+    "3": {"opponents":3,"trials":100000,"win":0.294710,"tie":0.030630,"equity":0.308713},
+    "4": {"opponents":4,"trials":100000,"win":0.239180,"tie":0.028830,"equity":0.252269},
+    "5": {"opponents":5,"trials":100000,"win":0.201390,"tie":0.027650,"equity":0.213884},
+    "6": {"opponents":6,"trials":100000,"win":0.174420,"tie":0.026760,"equity":0.186505},
+    "7": {"opponents":7,"trials":100000,"win":0.153670,"tie":0.026180,"equity":0.165382}
+  },
+  "K7s": {
+    "1": {"opponents":1,"trials":100000,"win":0.557450,"tie":0.033780,"equity":0.574340},
+    "2": {"opponents":2,"trials":100000,"win":0.374290,"tie":0.035910,"equity":0.391200},
+    "3": {"opponents":3,"trials":100000,"win":0.282120,"tie":0.034000,"equity":0.297798},
+    "4": {"opponents":4,"trials":100000,"win":0.227350,"tie":0.032210,"equity":0.242127},
+    "5": {"opponents":5,"trials":100000,"win":0.191610,"tie":0.031060,"equity":0.205809},
+    "6": {"opponents":6,"trials":100000,"win":0.165000,"tie":0.030570,"equity":0.178908},
+    "7": {"opponents":7,"trials":100000,"win":0.145100,"tie":0.029490,"equity":0.158423}
+  },
+  "K6s": {
+    "1": {"opponents":1,"trials":100000,"win":0.548380,"tie":0.036260,"equity":0.566510},
+    "2": {"opponents":2,"trials":100000,"win":0.364460,"tie":0.037600,"equity":0.382198},
+    "3": {"opponents":3,"trials":100000,"win":0.273280,"tie":0.035760,"equity":0.289868},
+    "4": {"opponents":4,"trials":100000,"win":0.219970,"tie":0.033790,"equity":0.235568},
+    "5": {"opponents":5,"trials":100000,"win":0.184490,"tie":0.032370,"equity":0.199371},
+    "6": {"opponents":6,"trials":100000,"win":0.159560,"tie":0.030930,"equity":0.173670},
+    "7": {"opponents":7,"trials":100000,"win":0.141450,"tie":0.029860,"equity":0.154984}
+  },
+  "K5s": {
+    "1": {"opponents":1,"trials":100000,"win":0.538720,"tie":0.039110,"equity":0.558275},
+    "2": {"opponents":2,"trials":100000,"win":0.354660,"tie":0.040060,"equity":0.373592},
+    "3": {"opponents":3,"trials":100000,"win":0.264790,"tie":0.037750,"equity":0.282292},
+    "4": {"opponents":4,"trials":100000,"win":0.211970,"tie":0.036100,"equity":0.228569},
+    "5": {"opponents":5,"trials":100000,"win":0.178650,"tie":0.033710,"equity":0.194096},
+    "6": {"opponents":6,"trials":100000,"win":0.154800,"tie":0.032700,"equity":0.169692},
+    "7": {"opponents":7,"trials":100000,"win":0.136420,"tie":0.031540,"equity":0.150721}
+  },
+  "K4s": {
+    "1": {"opponents":1,"trials":100000,"win":0.528360,"tie":0.039140,"equity":0.547930},
+    "2": {"opponents":2,"trials":100000,"win":0.347640,"tie":0.039110,"equity":0.366015},
+    "3": {"opponents":3,"trials":100000,"win":0.257610,"tie":0.036570,"equity":0.274420},
+    "4": {"opponents":4,"trials":100000,"win":0.207940,"tie":0.033760,"equity":0.223275},
+    "5": {"opponents":5,"trials":100000,"win":0.175200,"tie":0.031980,"equity":0.189643},
+    "6": {"opponents":6,"trials":100000,"win":0.152340,"tie":0.031080,"equity":0.166335},
+    "7": {"opponents":7,"trials":100000,"win":0.134900,"tie":0.030030,"equity":0.148376}
+  },
+  "K3s": {
+    "1": {"opponents":1,"trials":100000,"win":0.520360,"tie":0.040550,"equity":0.540635},
+    "2": {"opponents":2,"trials":100000,"win":0.338020,"tie":0.039790,"equity":0.356740},
+    "3": {"opponents":3,"trials":100000,"win":0.251660,"tie":0.035680,"equity":0.268010},
+    "4": {"opponents":4,"trials":100000,"win":0.202820,"tie":0.032250,"equity":0.217449},
+    "5": {"opponents":5,"trials":100000,"win":0.171980,"tie":0.029870,"equity":0.185488},
+    "6": {"opponents":6,"trials":100000,"win":0.150130,"tie":0.028350,"equity":0.162934},
+    "7": {"opponents":7,"trials":100000,"win":0.133960,"tie":0.027350,"equity":0.146273}
+  },
+  "K2s": {
+    "1": {"opponents":1,"trials":100000,"win":0.511780,"tie":0.039710,"equity":0.531635},
+    "2": {"opponents":2,"trials":100000,"win":0.330490,"tie":0.038240,"equity":0.348422},
+    "3": {"opponents":3,"trials":100000,"win":0.246860,"tie":0.034880,"equity":0.262840},
+    "4": {"opponents":4,"trials":100000,"win":0.199850,"tie":0.031480,"equity":0.214107},
+    "5": {"opponents":5,"trials":100000,"win":0.170070,"tie":0.029420,"equity":0.183304},
+    "6": {"opponents":6,"trials":100000,"win":0.148360,"tie":0.027660,"equity":0.160770},
+    "7": {"opponents":7,"trials":100000,"win":0.132770,"tie":0.025630,"equity":0.144271}
+  },
+  "AQo": {
+    "1": {"opponents":1,"trials":100000,"win":0.634010,"tie":0.018560,"equity":0.643290},
+    "2": {"opponents":2,"trials":100000,"win":0.453980,"tie":0.022660,"equity":0.464547},
+    "3": {"opponents":3,"trials":100000,"win":0.354270,"tie":0.023550,"equity":0.365024},
+    "4": {"opponents":4,"trials":100000,"win":0.291490,"tie":0.023790,"equity":0.302252},
+    "5": {"opponents":5,"trials":100000,"win":0.245900,"tie":0.024260,"equity":0.256844},
+    "6": {"opponents":6,"trials":100000,"win":0.213160,"tie":0.023980,"equity":0.223972},
+    "7": {"opponents":7,"trials":100000,"win":0.184900,"tie":0.024020,"equity":0.195722}
+  },
+  "KQo": {
+    "1": {"opponents":1,"trials":100000,"win":0.606220,"tie":0.020670,"equity":0.616555},
+    "2": {"opponents":2,"trials":100000,"win":0.436160,"tie":0.022090,"equity":0.446287},
+    "3": {"opponents":3,"trials":100000,"win":0.343120,"tie":0.023300,"equity":0.353607},
+    "4": {"opponents":4,"trials":100000,"win":0.282740,"tie":0.023710,"equity":0.293367},
+    "5": {"opponents":5,"trials":100000,"win":0.240600,"tie":0.023450,"equity":0.251112},
+    "6": {"opponents":6,"trials":100000,"win":0.207550,"tie":0.023290,"equity":0.218024},
+    "7": {"opponents":7,"trials":100000,"win":0.180650,"tie":0.022810,"equity":0.190900}
+  },
+  "QQ": {
+    "1": {"opponents":1,"trials":100000,"win":0.798220,"tie":0.005690,"equity":0.801065},
+    "2": {"opponents":2,"trials":100000,"win":0.648460,"tie":0.006150,"equity":0.650993},
+    "3": {"opponents":3,"trials":100000,"win":0.532780,"tie":0.006390,"equity":0.535354},
+    "4": {"opponents":4,"trials":100000,"win":0.444490,"tie":0.006960,"equity":0.447334},
+    "5": {"opponents":5,"trials":100000,"win":0.375800,"tie":0.006930,"equity":0.378690},
+    "6": {"opponents":6,"trials":100000,"win":0.322290,"tie":0.007000,"equity":0.325277},
+    "7": {"opponents":7,"trials":100000,"win":0.280270,"tie":0.007010,"equity":0.283285}
+  },
+  "QJs": {
+    "1": {"opponents":1,"trials":100000,"win":0.590790,"tie":0.023030,"equity":0.602305},
+    "2": {"opponents":2,"trials":100000,"win":0.430010,"tie":0.025290,"equity":0.441533},
+    "3": {"opponents":3,"trials":100000,"win":0.345710,"tie":0.025010,"equity":0.356935},
+    "4": {"opponents":4,"trials":100000,"win":0.290780,"tie":0.024650,"equity":0.301893},
+    "5": {"opponents":5,"trials":100000,"win":0.251720,"tie":0.024180,"equity":0.262664},
+    "6": {"opponents":6,"trials":100000,"win":0.221760,"tie":0.024260,"equity":0.232780},
+    "7": {"opponents":7,"trials":100000,"win":0.197850,"tie":0.024320,"equity":0.208850}
+  },
+  "QTs": {
+    "1": {"opponents":1,"trials":100000,"win":0.578660,"tie":0.026680,"equity":0.592000},
+    "2": {"opponents":2,"trials":100000,"win":0.417020,"tie":0.027390,"equity":0.429540},
+    "3": {"opponents":3,"trials":100000,"win":0.332900,"tie":0.027300,"equity":0.345207},
+    "4": {"opponents":4,"trials":100000,"win":0.278400,"tie":0.027370,"equity":0.290732},
+    "5": {"opponents":5,"trials":100000,"win":0.239650,"tie":0.027020,"equity":0.251840},
+    "6": {"opponents":6,"trials":100000,"win":0.211150,"tie":0.026680,"equity":0.223202},
+    "7": {"opponents":7,"trials":100000,"win":0.187470,"tie":0.026640,"equity":0.199451}
+  },
+  "Q9s": {
+    "1": {"opponents":1,"trials":100000,"win":0.561220,"tie":0.028590,"equity":0.575515},
+    "2": {"opponents":2,"trials":100000,"win":0.392990,"tie":0.029350,"equity":0.406593},
+    "3": {"opponents":3,"trials":100000,"win":0.305680,"tie":0.028700,"equity":0.318673},
+    "4": {"opponents":4,"trials":100000,"win":0.251070,"tie":0.027410,"equity":0.263465},
+    "5": {"opponents":5,"trials":100000,"win":0.213980,"tie":0.026430,"equity":0.225885},
+    "6": {"opponents":6,"trials":100000,"win":0.185520,"tie":0.026070,"equity":0.197274},
+    "7": {"opponents":7,"trials":100000,"win":0.164630,"tie":0.025540,"equity":0.176123}
+  },
+  "Q8s": {
+    "1": {"opponents":1,"trials":100000,"win":0.543790,"tie":0.030720,"equity":0.559150},
+    "2": {"opponents":2,"trials":100000,"win":0.369360,"tie":0.031830,"equity":0.384108},
+    "3": {"opponents":3,"trials":100000,"win":0.280570,"tie":0.030250,"equity":0.294272},
+    "4": {"opponents":4,"trials":100000,"win":0.228730,"tie":0.028900,"equity":0.241738},
+    "5": {"opponents":5,"trials":100000,"win":0.193650,"tie":0.027560,"equity":0.206007},
+    "6": {"opponents":6,"trials":100000,"win":0.167960,"tie":0.027040,"equity":0.180076},
+    "7": {"opponents":7,"trials":100000,"win":0.147700,"tie":0.026730,"equity":0.159601}
+  },
+  "Q7s": {
+    "1": {"opponents":1,"trials":100000,"win":0.524820,"tie":0.035580,"equity":0.542610},
+    "2": {"opponents":2,"trials":100000,"win":0.351200,"tie":0.035030,"equity":0.367495},
+    "3": {"opponents":3,"trials":100000,"win":0.264320,"tie":0.032410,"equity":0.279085},
+    "4": {"opponents":4,"trials":100000,"win":0.212210,"tie":0.030920,"equity":0.226291},
+    "5": {"opponents":5,"trials":100000,"win":0.177620,"tie":0.029390,"equity":0.190978},
+    "6": {"opponents":6,"trials":100000,"win":0.154070,"tie":0.028210,"equity":0.166843},
+    "7": {"opponents":7,"trials":100000,"win":0.135690,"tie":0.027380,"equity":0.148000}
+  },
+  "Q6s": {
+    "1": {"opponents":1,"trials":100000,"win":0.516730,"tie":0.038430,"equity":0.535945},
+    "2": {"opponents":2,"trials":100000,"win":0.337860,"tie":0.036940,"equity":0.355145},
+    "3": {"opponents":3,"trials":100000,"win":0.253040,"tie":0.033770,"equity":0.268576},
+    "4": {"opponents":4,"trials":100000,"win":0.204890,"tie":0.031030,"equity":0.219100},
+    "5": {"opponents":5,"trials":100000,"win":0.171850,"tie":0.029720,"equity":0.185412},
+    "6": {"opponents":6,"trials":100000,"win":0.147820,"tie":0.028620,"equity":0.160821},
+    "7": {"opponents":7,"trials":100000,"win":0.129530,"tie":0.028220,"equity":0.142277}
+  },
+  "Q5s": {
+    "1": {"opponents":1,"trials":100000,"win":0.507990,"tie":0.041150,"equity":0.528565},
+    "2": {"opponents":2,"trials":100000,"win":0.331970,"tie":0.039230,"equity":0.350278},
+    "3": {"opponents":3,"trials":100000,"win":0.247420,"tie":0.035350,"equity":0.263567},
+    "4": {"opponents":4,"trials":100000,"win":0.198910,"tie":0.032800,"equity":0.213824},
+    "5": {"opponents":5,"trials":100000,"win":0.167100,"tie":0.031490,"equity":0.181288},
+    "6": {"opponents":6,"trials":100000,"win":0.144530,"tie":0.030170,"equity":0.158142},
+    "7": {"opponents":7,"trials":100000,"win":0.127290,"tie":0.029710,"equity":0.140624}
+  },
+  "Q4s": {
+    "1": {"opponents":1,"trials":100000,"win":0.498180,"tie":0.042550,"equity":0.519455},
+    "2": {"opponents":2,"trials":100000,"win":0.322520,"tie":0.039740,"equity":0.341073},
+    "3": {"opponents":3,"trials":100000,"win":0.240890,"tie":0.035280,"equity":0.256981},
+    "4": {"opponents":4,"trials":100000,"win":0.192700,"tie":0.032320,"equity":0.207296},
+    "5": {"opponents":5,"trials":100000,"win":0.161370,"tie":0.030450,"equity":0.175097},
+    "6": {"opponents":6,"trials":100000,"win":0.140210,"tie":0.028930,"equity":0.153194},
+    "7": {"opponents":7,"trials":100000,"win":0.123880,"tie":0.027650,"equity":0.136227}
+  },
+  "Q3s": {
+    "1": {"opponents":1,"trials":100000,"win":0.488070,"tie":0.042670,"equity":0.509405},
+    "2": {"opponents":2,"trials":100000,"win":0.313030,"tie":0.038140,"equity":0.330723},
+    "3": {"opponents":3,"trials":100000,"win":0.232050,"tie":0.034040,"equity":0.247467},
+    "4": {"opponents":4,"trials":100000,"win":0.187420,"tie":0.030570,"equity":0.201129},
+    "5": {"opponents":5,"trials":100000,"win":0.158050,"tie":0.028730,"equity":0.170900},
+    "6": {"opponents":6,"trials":100000,"win":0.136870,"tie":0.027310,"equity":0.149035},
+    "7": {"opponents":7,"trials":100000,"win":0.121750,"tie":0.025890,"equity":0.133263}
+  },
+  "Q2s": {
+    "1": {"opponents":1,"trials":100000,"win":0.483840,"tie":0.040730,"equity":0.504205},
+    "2": {"opponents":2,"trials":100000,"win":0.309780,"tie":0.036820,"equity":0.326970},
+    "3": {"opponents":3,"trials":100000,"win":0.229880,"tie":0.031640,"equity":0.244287},
+    "4": {"opponents":4,"trials":100000,"win":0.186830,"tie":0.028760,"equity":0.199816},
+    "5": {"opponents":5,"trials":100000,"win":0.157850,"tie":0.026590,"equity":0.169929},
+    "6": {"opponents":6,"trials":100000,"win":0.137880,"tie":0.024600,"equity":0.149047},
+    "7": {"opponents":7,"trials":100000,"win":0.122780,"tie":0.023110,"equity":0.133219}
+  },
+  "AJo": {
+    "1": {"opponents":1,"trials":100000,"win":0.626590,"tie":0.020710,"equity":0.636945},
+    "2": {"opponents":2,"trials":100000,"win":0.443360,"tie":0.025380,"equity":0.455357},
+    "3": {"opponents":3,"trials":100000,"win":0.343450,"tie":0.026500,"equity":0.355757},
+    "4": {"opponents":4,"trials":100000,"win":0.277210,"tie":0.027070,"equity":0.289709},
+    "5": {"opponents":5,"trials":100000,"win":0.232530,"tie":0.027430,"equity":0.245116},
+    "6": {"opponents":6,"trials":100000,"win":0.197630,"tie":0.027430,"equity":0.210134},
+    "7": {"opponents":7,"trials":100000,"win":0.170840,"tie":0.027130,"equity":0.183120}
+  },
+  "KJo": {
+    "1": {"opponents":1,"trials":100000,"win":0.592550,"tie":0.022680,"equity":0.603890},
+    "2": {"opponents":2,"trials":100000,"win":0.419200,"tie":0.024950,"equity":0.430712},
+    "3": {"opponents":3,"trials":100000,"win":0.325960,"tie":0.025210,"equity":0.337413},
+    "4": {"opponents":4,"trials":100000,"win":0.266520,"tie":0.025220,"equity":0.277946},
+    "5": {"opponents":5,"trials":100000,"win":0.224070,"tie":0.025000,"equity":0.235387},
+    "6": {"opponents":6,"trials":100000,"win":0.191460,"tie":0.025330,"equity":0.202914},
+    "7": {"opponents":7,"trials":100000,"win":0.166300,"tie":0.024990,"equity":0.177598}
+  },
+  "QJo": {
+    "1": {"opponents":1,"trials":100000,"win":0.567980,"tie":0.023470,"equity":0.579715},
+    "2": {"opponents":2,"trials":100000,"win":0.399430,"tie":0.025160,"equity":0.410928},
+    "3": {"opponents":3,"trials":100000,"win":0.312510,"tie":0.025400,"equity":0.323922},
+    "4": {"opponents":4,"trials":100000,"win":0.254920,"tie":0.025730,"equity":0.266476},
+    "5": {"opponents":5,"trials":100000,"win":0.214910,"tie":0.025780,"equity":0.226528},
+    "6": {"opponents":6,"trials":100000,"win":0.184090,"tie":0.025600,"equity":0.195626},
+    "7": {"opponents":7,"trials":100000,"win":0.159280,"tie":0.025450,"equity":0.170738}
+  },
+  "JJ": {
+    "1": {"opponents":1,"trials":100000,"win":0.769660,"tie":0.006260,"equity":0.772790},
+    "2": {"opponents":2,"trials":100000,"win":0.608520,"tie":0.007250,"equity":0.611598},
+    "3": {"opponents":3,"trials":100000,"win":0.490140,"tie":0.007550,"equity":0.493268},
+    "4": {"opponents":4,"trials":100000,"win":0.400560,"tie":0.008140,"equity":0.403961},
+    "5": {"opponents":5,"trials":100000,"win":0.332850,"tie":0.008560,"equity":0.336508},
+    "6": {"opponents":6,"trials":100000,"win":0.282090,"tie":0.009020,"equity":0.286011},
+    "7": {"opponents":7,"trials":100000,"win":0.242410,"tie":0.009180,"equity":0.246445}
+  },
+  "JTs": {
+    "1": {"opponents":1,"trials":100000,"win":0.560800,"tie":0.027600,"equity":0.574600},
+    "2": {"opponents":2,"trials":100000,"win":0.407470,"tie":0.027220,"equity":0.419855},
+    "3": {"opponents":3,"trials":100000,"win":0.326350,"tie":0.026980,"equity":0.338450},
+    "4": {"opponents":4,"trials":100000,"win":0.275320,"tie":0.026430,"equity":0.287211},
+    "5": {"opponents":5,"trials":100000,"win":0.238370,"tie":0.026450,"equity":0.250354},
+    "6": {"opponents":6,"trials":100000,"win":0.210000,"tie":0.026830,"equity":0.222152},
+    "7": {"opponents":7,"trials":100000,"win":0.187270,"tie":0.027190,"equity":0.199582}
+  },
+  "J9s": {
+    "1": {"opponents":1,"trials":100000,"win":0.541870,"tie":0.031080,"equity":0.557410},
+    "2": {"opponents":2,"trials":100000,"win":0.381570,"tie":0.030170,"equity":0.395367},
+    "3": {"opponents":3,"trials":100000,"win":0.300400,"tie":0.028490,"equity":0.313227},
+    "4": {"opponents":4,"trials":100000,"win":0.248110,"tie":0.027530,"equity":0.260541},
+    "5": {"opponents":5,"trials":100000,"win":0.210710,"tie":0.027240,"equity":0.223022},
+    "6": {"opponents":6,"trials":100000,"win":0.184100,"tie":0.026420,"equity":0.196044},
+    "7": {"opponents":7,"trials":100000,"win":0.162730,"tie":0.026120,"equity":0.174491}
+  },
+  "J8s": {
+    "1": {"opponents":1,"trials":100000,"win":0.526540,"tie":0.033250,"equity":0.543165},
+    "2": {"opponents":2,"trials":100000,"win":0.362640,"tie":0.031590,"equity":0.377118},
+    "3": {"opponents":3,"trials":100000,"win":0.279880,"tie":0.029090,"equity":0.292932},
+    "4": {"opponents":4,"trials":100000,"win":0.229150,"tie":0.027670,"equity":0.241562},
+    "5": {"opponents":5,"trials":100000,"win":0.195090,"tie":0.026610,"equity":0.207035},
+    "6": {"opponents":6,"trials":100000,"win":0.169390,"tie":0.026160,"equity":0.181103},
+    "7": {"opponents":7,"trials":100000,"win":0.150090,"tie":0.025590,"equity":0.161583}
+  },
+  "J7s": {
+    "1": {"opponents":1,"trials":100000,"win":0.504500,"tie":0.038180,"equity":0.523590},
+    "2": {"opponents":2,"trials":100000,"win":0.336650,"tie":0.035800,"equity":0.352958},
+    "3": {"opponents":3,"trials":100000,"win":0.255960,"tie":0.032320,"equity":0.270380},
+    "4": {"opponents":4,"trials":100000,"win":0.207580,"tie":0.030510,"equity":0.221152},
+    "5": {"opponents":5,"trials":100000,"win":0.174980,"tie":0.029470,"equity":0.188167},
+    "6": {"opponents":6,"trials":100000,"win":0.151120,"tie":0.028790,"equity":0.163990},
+    "7": {"opponents":7,"trials":100000,"win":0.132450,"tie":0.028100,"equity":0.144968}
+  },
+  "J6s": {
+    "1": {"opponents":1,"trials":100000,"win":0.482900,"tie":0.040570,"equity":0.503185},
+    "2": {"opponents":2,"trials":100000,"win":0.315380,"tie":0.036560,"equity":0.332285},
+    "3": {"opponents":3,"trials":100000,"win":0.236950,"tie":0.032090,"equity":0.251513},
+    "4": {"opponents":4,"trials":100000,"win":0.190760,"tie":0.030230,"equity":0.204453},
+    "5": {"opponents":5,"trials":100000,"win":0.159750,"tie":0.029030,"equity":0.172840},
+    "6": {"opponents":6,"trials":100000,"win":0.137690,"tie":0.028520,"equity":0.150546},
+    "7": {"opponents":7,"trials":100000,"win":0.120870,"tie":0.028020,"equity":0.133358}
+  },
+  "J5s": {
+    "1": {"opponents":1,"trials":100000,"win":0.475930,"tie":0.043510,"equity":0.497685},
+    "2": {"opponents":2,"trials":100000,"win":0.308790,"tie":0.037870,"equity":0.326297},
+    "3": {"opponents":3,"trials":100000,"win":0.230570,"tie":0.033670,"equity":0.245815},
+    "4": {"opponents":4,"trials":100000,"win":0.185340,"tie":0.031670,"equity":0.199626},
+    "5": {"opponents":5,"trials":100000,"win":0.155860,"tie":0.030100,"equity":0.169413},
+    "6": {"opponents":6,"trials":100000,"win":0.135030,"tie":0.028660,"equity":0.147836},
+    "7": {"opponents":7,"trials":100000,"win":0.119390,"tie":0.027940,"equity":0.131748}
+  },
+  "J4s": {
+    "1": {"opponents":1,"trials":100000,"win":0.469020,"tie":0.043570,"equity":0.490805},
+    "2": {"opponents":2,"trials":100000,"win":0.301090,"tie":0.038260,"equity":0.318737},
+    "3": {"opponents":3,"trials":100000,"win":0.224170,"tie":0.033140,"equity":0.239107},
+    "4": {"opponents":4,"trials":100000,"win":0.179980,"tie":0.030610,"equity":0.193729},
+    "5": {"opponents":5,"trials":100000,"win":0.151730,"tie":0.028930,"equity":0.164697},
+    "6": {"opponents":6,"trials":100000,"win":0.130840,"tie":0.028100,"equity":0.143390},
+    "7": {"opponents":7,"trials":100000,"win":0.115190,"tie":0.027360,"equity":0.127338}
+  },
+  "J3s": {
+    "1": {"opponents":1,"trials":100000,"win":0.461620,"tie":0.043080,"equity":0.483160},
+    "2": {"opponents":2,"trials":100000,"win":0.294650,"tie":0.036560,"equity":0.311463},
+    "3": {"opponents":3,"trials":100000,"win":0.219040,"tie":0.031080,"equity":0.232970},
+    "4": {"opponents":4,"trials":100000,"win":0.176860,"tie":0.028910,"equity":0.189770},
+    "5": {"opponents":5,"trials":100000,"win":0.148510,"tie":0.026880,"equity":0.160504},
+    "6": {"opponents":6,"trials":100000,"win":0.129070,"tie":0.025530,"equity":0.140479},
+    "7": {"opponents":7,"trials":100000,"win":0.114360,"tie":0.024020,"equity":0.125059}
+  },
+  "J2s": {
+    "1": {"opponents":1,"trials":100000,"win":0.454170,"tie":0.044010,"equity":0.476175},
+    "2": {"opponents":2,"trials":100000,"win":0.289160,"tie":0.036160,"equity":0.305805},
+    "3": {"opponents":3,"trials":100000,"win":0.215780,"tie":0.031560,"equity":0.230015},
+    "4": {"opponents":4,"trials":100000,"win":0.173320,"tie":0.028140,"equity":0.185940},
+    "5": {"opponents":5,"trials":100000,"win":0.146720,"tie":0.026100,"equity":0.158397},
+    "6": {"opponents":6,"trials":100000,"win":0.127920,"tie":0.025040,"equity":0.139105},
+    "7": {"opponents":7,"trials":100000,"win":0.112730,"tie":0.023750,"equity":0.123282}
+  },
+  "ATo": {
+    "1": {"opponents":1,"trials":100000,"win":0.615590,"tie":0.023090,"equity":0.627135},
+    "2": {"opponents":2,"trials":100000,"win":0.428100,"tie":0.028050,"equity":0.441387},
+    "3": {"opponents":3,"trials":100000,"win":0.324760,"tie":0.029490,"equity":0.338489},
+    "4": {"opponents":4,"trials":100000,"win":0.258930,"tie":0.030620,"equity":0.273037},
+    "5": {"opponents":5,"trials":100000,"win":0.214660,"tie":0.030650,"equity":0.228702},
+    "6": {"opponents":6,"trials":100000,"win":0.181570,"tie":0.030310,"equity":0.195381},
+    "7": {"opponents":7,"trials":100000,"win":0.157050,"tie":0.029760,"equity":0.170518}
+  },
+  "KTo": {
+    "1": {"opponents":1,"trials":100000,"win":0.586370,"tie":0.024720,"equity":0.598730},
+    "2": {"opponents":2,"trials":100000,"win":0.404520,"tie":0.027410,"equity":0.417197},
+    "3": {"opponents":3,"trials":100000,"win":0.308950,"tie":0.028500,"equity":0.321902},
+    "4": {"opponents":4,"trials":100000,"win":0.248840,"tie":0.029060,"equity":0.262019},
+    "5": {"opponents":5,"trials":100000,"win":0.207830,"tie":0.028200,"equity":0.220634},
+    "6": {"opponents":6,"trials":100000,"win":0.176690,"tie":0.028480,"equity":0.189636},
+    "7": {"opponents":7,"trials":100000,"win":0.152680,"tie":0.027770,"equity":0.165223}
+  },
+  "QTo": {
+    "1": {"opponents":1,"trials":100000,"win":0.559500,"tie":0.026630,"equity":0.572815},
+    "2": {"opponents":2,"trials":100000,"win":0.388620,"tie":0.029040,"equity":0.402012},
+    "3": {"opponents":3,"trials":100000,"win":0.301090,"tie":0.028460,"equity":0.313910},
+    "4": {"opponents":4,"trials":100000,"win":0.244310,"tie":0.028480,"equity":0.257117},
+    "5": {"opponents":5,"trials":100000,"win":0.205140,"tie":0.028820,"equity":0.218107},
+    "6": {"opponents":6,"trials":100000,"win":0.174680,"tie":0.028650,"equity":0.187575},
+    "7": {"opponents":7,"trials":100000,"win":0.151100,"tie":0.027970,"equity":0.163674}
+  },
+  "JTo": {
+    "1": {"opponents":1,"trials":100000,"win":0.538170,"tie":0.028470,"equity":0.552405},
+    "2": {"opponents":2,"trials":100000,"win":0.376590,"tie":0.028020,"equity":0.389380},
+    "3": {"opponents":3,"trials":100000,"win":0.293560,"tie":0.028010,"equity":0.306188},
+    "4": {"opponents":4,"trials":100000,"win":0.238900,"tie":0.028590,"equity":0.251861},
+    "5": {"opponents":5,"trials":100000,"win":0.200640,"tie":0.028660,"equity":0.213647},
+    "6": {"opponents":6,"trials":100000,"win":0.171490,"tie":0.028300,"equity":0.184363},
+    "7": {"opponents":7,"trials":100000,"win":0.148620,"tie":0.028560,"equity":0.161607}
+  },
+  "TT": {
+    "1": {"opponents":1,"trials":100000,"win":0.747330,"tie":0.006960,"equity":0.750810},
+    "2": {"opponents":2,"trials":100000,"win":0.574620,"tie":0.007820,"equity":0.577917},
+    "3": {"opponents":3,"trials":100000,"win":0.448230,"tie":0.008530,"equity":0.451723},
+    "4": {"opponents":4,"trials":100000,"win":0.359110,"tie":0.008790,"equity":0.362759},
+    "5": {"opponents":5,"trials":100000,"win":0.295920,"tie":0.009150,"equity":0.299790},
+    "6": {"opponents":6,"trials":100000,"win":0.247490,"tie":0.009720,"equity":0.251684},
+    "7": {"opponents":7,"trials":100000,"win":0.211780,"tie":0.010230,"equity":0.216241}
+  },
+  "T9s": {
+    "1": {"opponents":1,"trials":100000,"win":0.524050,"tie":0.033210,"equity":0.540655},
+    "2": {"opponents":2,"trials":100000,"win":0.375690,"tie":0.029910,"equity":0.389182},
+    "3": {"opponents":3,"trials":100000,"win":0.297880,"tie":0.028820,"equity":0.310747},
+    "4": {"opponents":4,"trials":100000,"win":0.249210,"tie":0.027770,"equity":0.261638},
+    "5": {"opponents":5,"trials":100000,"win":0.212580,"tie":0.027530,"equity":0.224892},
+    "6": {"opponents":6,"trials":100000,"win":0.186040,"tie":0.027180,"equity":0.198214},
+    "7": {"opponents":7,"trials":100000,"win":0.165850,"tie":0.027100,"equity":0.177970}
+  },
+  "T8s": {
+    "1": {"opponents":1,"trials":100000,"win":0.506600,"tie":0.036900,"equity":0.525050},
+    "2": {"opponents":2,"trials":100000,"win":0.353080,"tie":0.033390,"equity":0.368227},
+    "3": {"opponents":3,"trials":100000,"win":0.277620,"tie":0.030430,"equity":0.291187},
+    "4": {"opponents":4,"trials":100000,"win":0.230550,"tie":0.028770,"equity":0.243409},
+    "5": {"opponents":5,"trials":100000,"win":0.196150,"tie":0.027650,"equity":0.208619},
+    "6": {"opponents":6,"trials":100000,"win":0.170640,"tie":0.027260,"equity":0.182939},
+    "7": {"opponents":7,"trials":100000,"win":0.152190,"tie":0.026850,"equity":0.164231}
+  },
+  "T7s": {
+    "1": {"opponents":1,"trials":100000,"win":0.487090,"tie":0.040490,"equity":0.507335},
+    "2": {"opponents":2,"trials":100000,"win":0.330980,"tie":0.034270,"equity":0.346583},
+    "3": {"opponents":3,"trials":100000,"win":0.256160,"tie":0.031700,"equity":0.270418},
+    "4": {"opponents":4,"trials":100000,"win":0.209010,"tie":0.030160,"equity":0.222626},
+    "5": {"opponents":5,"trials":100000,"win":0.175770,"tie":0.029170,"equity":0.188945},
+    "6": {"opponents":6,"trials":100000,"win":0.152550,"tie":0.028740,"equity":0.165463},
+    "7": {"opponents":7,"trials":100000,"win":0.135420,"tie":0.028220,"equity":0.148033}
+  },
+  "T6s": {
+    "1": {"opponents":1,"trials":100000,"win":0.467940,"tie":0.043350,"equity":0.489615},
+    "2": {"opponents":2,"trials":100000,"win":0.311730,"tie":0.035970,"equity":0.328178},
+    "3": {"opponents":3,"trials":100000,"win":0.236750,"tie":0.032320,"equity":0.251178},
+    "4": {"opponents":4,"trials":100000,"win":0.191370,"tie":0.029660,"equity":0.204621},
+    "5": {"opponents":5,"trials":100000,"win":0.160540,"tie":0.029240,"equity":0.173622},
+    "6": {"opponents":6,"trials":100000,"win":0.138610,"tie":0.028570,"equity":0.151337},
+    "7": {"opponents":7,"trials":100000,"win":0.122300,"tie":0.027990,"equity":0.134704}
+  },
+  "T5s": {
+    "1": {"opponents":1,"trials":100000,"win":0.449120,"tie":0.045440,"equity":0.471840},
+    "2": {"opponents":2,"trials":100000,"win":0.289910,"tie":0.036920,"equity":0.306775},
+    "3": {"opponents":3,"trials":100000,"win":0.217850,"tie":0.030810,"equity":0.231662},
+    "4": {"opponents":4,"trials":100000,"win":0.175560,"tie":0.029040,"equity":0.188639},
+    "5": {"opponents":5,"trials":100000,"win":0.146460,"tie":0.027850,"equity":0.159065},
+    "6": {"opponents":6,"trials":100000,"win":0.126100,"tie":0.027220,"equity":0.138373},
+    "7": {"opponents":7,"trials":100000,"win":0.111510,"tie":0.026570,"equity":0.123393}
+  },
+  "T4s": {
+    "1": {"opponents":1,"trials":100000,"win":0.440800,"tie":0.046970,"equity":0.464285},
+    "2": {"opponents":2,"trials":100000,"win":0.282170,"tie":0.039010,"equity":0.300117},
+    "3": {"opponents":3,"trials":100000,"win":0.210600,"tie":0.033920,"equity":0.225941},
+    "4": {"opponents":4,"trials":100000,"win":0.169740,"tie":0.031240,"equity":0.183882},
+    "5": {"opponents":5,"trials":100000,"win":0.143100,"tie":0.029730,"equity":0.156517},
+    "6": {"opponents":6,"trials":100000,"win":0.123230,"tie":0.029100,"equity":0.136360},
+    "7": {"opponents":7,"trials":100000,"win":0.109430,"tie":0.028140,"equity":0.122019}
+  },
+  "T3s": {
+    "1": {"opponents":1,"trials":100000,"win":0.433930,"tie":0.046700,"equity":0.457280},
+    "2": {"opponents":2,"trials":100000,"win":0.278690,"tie":0.036340,"equity":0.295248},
+    "3": {"opponents":3,"trials":100000,"win":0.207280,"tie":0.031070,"equity":0.221067},
+    "4": {"opponents":4,"trials":100000,"win":0.166950,"tie":0.028070,"equity":0.179383},
+    "5": {"opponents":5,"trials":100000,"win":0.140360,"tie":0.026710,"equity":0.152228},
+    "6": {"opponents":6,"trials":100000,"win":0.121490,"tie":0.025450,"equity":0.132764},
+    "7": {"opponents":7,"trials":100000,"win":0.107810,"tie":0.024940,"equity":0.118828}
+  },
+  "T2s": {
+    "1": {"opponents":1,"trials":100000,"win":0.427590,"tie":0.045650,"equity":0.450415},
+    "2": {"opponents":2,"trials":100000,"win":0.270330,"tie":0.036690,"equity":0.287003},
+    "3": {"opponents":3,"trials":100000,"win":0.201730,"tie":0.030990,"equity":0.215492},
+    "4": {"opponents":4,"trials":100000,"win":0.163830,"tie":0.027500,"equity":0.175993},
+    "5": {"opponents":5,"trials":100000,"win":0.138450,"tie":0.025680,"equity":0.149844},
+    "6": {"opponents":6,"trials":100000,"win":0.120440,"tie":0.024270,"equity":0.131251},
+    "7": {"opponents":7,"trials":100000,"win":0.107720,"tie":0.023450,"equity":0.118090}
+  },
+  "A9o": {
+    "1": {"opponents":1,"trials":100000,"win":0.593910,"tie":0.026740,"equity":0.607280},
+    "2": {"opponents":2,"trials":100000,"win":0.399840,"tie":0.032130,"equity":0.415183},
+    "3": {"opponents":3,"trials":100000,"win":0.294330,"tie":0.032750,"equity":0.309732},
+    "4": {"opponents":4,"trials":100000,"win":0.230290,"tie":0.031850,"equity":0.245102},
+    "5": {"opponents":5,"trials":100000,"win":0.187120,"tie":0.030760,"equity":0.201277},
+    "6": {"opponents":6,"trials":100000,"win":0.155120,"tie":0.029840,"equity":0.168797},
+    "7": {"opponents":7,"trials":100000,"win":0.131400,"tie":0.029460,"equity":0.144855}
+  },
+  "K9o": {
+    "1": {"opponents":1,"trials":100000,"win":0.563520,"tie":0.028410,"equity":0.577725},
+    "2": {"opponents":2,"trials":100000,"win":0.377350,"tie":0.030840,"equity":0.391758},
+    "3": {"opponents":3,"trials":100000,"win":0.280310,"tie":0.030930,"equity":0.294452},
+    "4": {"opponents":4,"trials":100000,"win":0.220300,"tie":0.029930,"equity":0.233923},
+    "5": {"opponents":5,"trials":100000,"win":0.179550,"tie":0.029300,"equity":0.192828},
+    "6": {"opponents":6,"trials":100000,"win":0.150510,"tie":0.028210,"equity":0.163273},
+    "7": {"opponents":7,"trials":100000,"win":0.128190,"tie":0.027270,"equity":0.140461}
+  },
+  "Q9o": {
+    "1": {"opponents":1,"trials":100000,"win":0.538090,"tie":0.031020,"equity":0.553600},
+    "2": {"opponents":2,"trials":100000,"win":0.360570,"tie":0.031410,"equity":0.375038},
+    "3": {"opponents":3,"trials":100000,"win":0.269150,"tie":0.029860,"equity":0.282588},
+    "4": {"opponents":4,"trials":100000,"win":0.213280,"tie":0.028630,"equity":0.226135},
+    "5": {"opponents":5,"trials":100000,"win":0.173860,"tie":0.028530,"equity":0.186687},
+    "6": {"opponents":6,"trials":100000,"win":0.145270,"tie":0.027510,"equity":0.157571},
+    "7": {"opponents":7,"trials":100000,"win":0.124060,"tie":0.026920,"equity":0.136070}
+  },
+  "J9o": {
+    "1": {"opponents":1,"trials":100000,"win":0.518260,"tie":0.031870,"equity":0.534195},
+    "2": {"opponents":2,"trials":100000,"win":0.350260,"tie":0.029870,"equity":0.363967},
+    "3": {"opponents":3,"trials":100000,"win":0.264580,"tie":0.028310,"equity":0.277382},
+    "4": {"opponents":4,"trials":100000,"win":0.210650,"tie":0.027440,"equity":0.223104},
+    "5": {"opponents":5,"trials":100000,"win":0.173810,"tie":0.027270,"equity":0.186218},
+    "6": {"opponents":6,"trials":100000,"win":0.146480,"tie":0.027200,"equity":0.158886},
+    "7": {"opponents":7,"trials":100000,"win":0.125630,"tie":0.027140,"equity":0.138026}
+  },
+  "T9o": {
+    "1": {"opponents":1,"trials":100000,"win":0.497640,"tie":0.034790,"equity":0.515035},
+    "2": {"opponents":2,"trials":100000,"win":0.342010,"tie":0.032480,"equity":0.356707},
+    "3": {"opponents":3,"trials":100000,"win":0.262540,"tie":0.030520,"equity":0.276122},
+    "4": {"opponents":4,"trials":100000,"win":0.211110,"tie":0.029600,"equity":0.224343},
+    "5": {"opponents":5,"trials":100000,"win":0.175760,"tie":0.028990,"equity":0.188833},
+    "6": {"opponents":6,"trials":100000,"win":0.149410,"tie":0.028730,"equity":0.162394},
+    "7": {"opponents":7,"trials":100000,"win":0.129070,"tie":0.028750,"equity":0.142006}
+  },
+  "99": {
+    "1": {"opponents":1,"trials":100000,"win":0.716460,"tie":0.007710,"equity":0.720315},
+    "2": {"opponents":2,"trials":100000,"win":0.531290,"tie":0.007710,"equity":0.534475},
+    "3": {"opponents":3,"trials":100000,"win":0.406410,"tie":0.007630,"equity":0.409417},
+    "4": {"opponents":4,"trials":100000,"win":0.321570,"tie":0.007690,"equity":0.324632},
+    "5": {"opponents":5,"trials":100000,"win":0.261320,"tie":0.007820,"equity":0.264498},
+    "6": {"opponents":6,"trials":100000,"win":0.220550,"tie":0.007840,"equity":0.223818},
+    "7": {"opponents":7,"trials":100000,"win":0.190510,"tie":0.007730,"equity":0.193751}
+  },
+  "98s": {
+    "1": {"opponents":1,"trials":100000,"win":0.488350,"tie":0.038520,"equity":0.507610},
+    "2": {"opponents":2,"trials":100000,"win":0.346380,"tie":0.031540,"equity":0.360550},
+    "3": {"opponents":3,"trials":100000,"win":0.273040,"tie":0.028170,"equity":0.285544},
+    "4": {"opponents":4,"trials":100000,"win":0.224950,"tie":0.026870,"equity":0.236982},
+    "5": {"opponents":5,"trials":100000,"win":0.191200,"tie":0.025990,"equity":0.202863},
+    "6": {"opponents":6,"trials":100000,"win":0.166270,"tie":0.025330,"equity":0.177627},
+    "7": {"opponents":7,"trials":100000,"win":0.147940,"tie":0.024630,"equity":0.158968}
+  },
+  "97s": {
+    "1": {"opponents":1,"trials":100000,"win":0.469040,"tie":0.042820,"equity":0.490450},
+    "2": {"opponents":2,"trials":100000,"win":0.326510,"tie":0.033730,"equity":0.341750},
+    "3": {"opponents":3,"trials":100000,"win":0.253930,"tie":0.029320,"equity":0.267082},
+    "4": {"opponents":4,"trials":100000,"win":0.208370,"tie":0.027340,"equity":0.220620},
+    "5": {"opponents":5,"trials":100000,"win":0.176400,"tie":0.026520,"equity":0.188320},
+    "6": {"opponents":6,"trials":100000,"win":0.153670,"tie":0.025650,"equity":0.165191},
+    "7": {"opponents":7,"trials":100000,"win":0.136910,"tie":0.025010,"equity":0.148125}
+  },
+  "96s": {
+    "1": {"opponents":1,"trials":100000,"win":0.450950,"tie":0.045040,"equity":0.473470},
+    "2": {"opponents":2,"trials":100000,"win":0.305930,"tie":0.034440,"equity":0.321478},
+    "3": {"opponents":3,"trials":100000,"win":0.236170,"tie":0.029580,"equity":0.249371},
+    "4": {"opponents":4,"trials":100000,"win":0.192720,"tie":0.027460,"equity":0.205031},
+    "5": {"opponents":5,"trials":100000,"win":0.163420,"tie":0.025690,"equity":0.175008},
+    "6": {"opponents":6,"trials":100000,"win":0.142950,"tie":0.024920,"equity":0.154175},
+    "7": {"opponents":7,"trials":100000,"win":0.127840,"tie":0.024130,"equity":0.138653}
+  },
+  "95s": {
+    "1": {"opponents":1,"trials":100000,"win":0.432440,"tie":0.047490,"equity":0.456185},
+    "2": {"opponents":2,"trials":100000,"win":0.284870,"tie":0.035980,"equity":0.301177},
+    "3": {"opponents":3,"trials":100000,"win":0.214810,"tie":0.030570,"equity":0.228446},
+    "4": {"opponents":4,"trials":100000,"win":0.174360,"tie":0.028150,"equity":0.186923},
+    "5": {"opponents":5,"trials":100000,"win":0.146930,"tie":0.026630,"equity":0.158819},
+    "6": {"opponents":6,"trials":100000,"win":0.127480,"tie":0.025130,"equity":0.138647},
+    "7": {"opponents":7,"trials":100000,"win":0.112680,"tie":0.024490,"equity":0.123482}
+  },
+  "94s": {
+    "1": {"opponents":1,"trials":100000,"win":0.414400,"tie":0.048560,"equity":0.438680},
+    "2": {"opponents":2,"trials":100000,"win":0.267620,"tie":0.036900,"equity":0.284295},
+    "3": {"opponents":3,"trials":100000,"win":0.200620,"tie":0.030860,"equity":0.214194},
+    "4": {"opponents":4,"trials":100000,"win":0.160800,"tie":0.028040,"equity":0.173169},
+    "5": {"opponents":5,"trials":100000,"win":0.134660,"tie":0.026180,"equity":0.146272},
+    "6": {"opponents":6,"trials":100000,"win":0.116780,"tie":0.024910,"equity":0.127784},
+    "7": {"opponents":7,"trials":100000,"win":0.103010,"tie":0.023960,"equity":0.113545}
+  },
+  "93s": {
+    "1": {"opponents":1,"trials":100000,"win":0.408920,"tie":0.048700,"equity":0.433270},
+    "2": {"opponents":2,"trials":100000,"win":0.263200,"tie":0.035510,"equity":0.279252},
+    "3": {"opponents":3,"trials":100000,"win":0.196740,"tie":0.029510,"equity":0.209841},
+    "4": {"opponents":4,"trials":100000,"win":0.157910,"tie":0.026420,"equity":0.169682},
+    "5": {"opponents":5,"trials":100000,"win":0.132810,"tie":0.024590,"equity":0.143847},
+    "6": {"opponents":6,"trials":100000,"win":0.115480,"tie":0.022520,"equity":0.125572},
+    "7": {"opponents":7,"trials":100000,"win":0.102280,"tie":0.021670,"equity":0.111910}
+  },
+  "92s": {
+    "1": {"opponents":1,"trials":100000,"win":0.401470,"tie":0.048600,"equity":0.425770},
+    "2": {"opponents":2,"trials":100000,"win":0.255110,"tie":0.035240,"equity":0.270937},
+    "3": {"opponents":3,"trials":100000,"win":0.189300,"tie":0.028320,"equity":0.201765},
+    "4": {"opponents":4,"trials":100000,"win":0.153500,"tie":0.025220,"equity":0.164613},
+    "5": {"opponents":5,"trials":100000,"win":0.129730,"tie":0.023250,"equity":0.139999},
+    "6": {"opponents":6,"trials":100000,"win":0.113210,"tie":0.021540,"equity":0.122769},
+    "7": {"opponents":7,"trials":100000,"win":0.101260,"tie":0.019920,"equity":0.110089}
+  },
+  "A8o": {
+    "1": {"opponents":1,"trials":100000,"win":0.584850,"tie":0.030050,"equity":0.599875},
+    "2": {"opponents":2,"trials":100000,"win":0.387360,"tie":0.035050,"equity":0.404078},
+    "3": {"opponents":3,"trials":100000,"win":0.281350,"tie":0.035720,"equity":0.298146},
+    "4": {"opponents":4,"trials":100000,"win":0.219140,"tie":0.034500,"equity":0.235173},
+    "5": {"opponents":5,"trials":100000,"win":0.176560,"tie":0.033400,"equity":0.191947},
+    "6": {"opponents":6,"trials":100000,"win":0.146790,"tie":0.032610,"equity":0.161715},
+    "7": {"opponents":7,"trials":100000,"win":0.122970,"tie":0.032200,"equity":0.137611}
+  },
+  "K8o": {
+    "1": {"opponents":1,"trials":100000,"win":0.544420,"tie":0.031690,"equity":0.560265},
+    "2": {"opponents":2,"trials":100000,"win":0.352510,"tie":0.034630,"equity":0.368870},
+    "3": {"opponents":3,"trials":100000,"win":0.255970,"tie":0.033310,"equity":0.271418},
+    "4": {"opponents":4,"trials":100000,"win":0.198080,"tie":0.031790,"equity":0.212690},
+    "5": {"opponents":5,"trials":100000,"win":0.158580,"tie":0.031090,"equity":0.172822},
+    "6": {"opponents":6,"trials":100000,"win":0.130530,"tie":0.029980,"equity":0.144149},
+    "7": {"opponents":7,"trials":100000,"win":0.110670,"tie":0.029060,"equity":0.123792}
+  },
+  "Q8o": {
+    "1": {"opponents":1,"trials":100000,"win":0.522670,"tie":0.032380,"equity":0.538860},
+    "2": {"opponents":2,"trials":100000,"win":0.338040,"tie":0.032600,"equity":0.353207},
+    "3": {"opponents":3,"trials":100000,"win":0.247290,"tie":0.031760,"equity":0.261800},
+    "4": {"opponents":4,"trials":100000,"win":0.193940,"tie":0.029510,"equity":0.207391},
+    "5": {"opponents":5,"trials":100000,"win":0.157070,"tie":0.028450,"equity":0.170016},
+    "6": {"opponents":6,"trials":100000,"win":0.129550,"tie":0.028010,"equity":0.142245},
+    "7": {"opponents":7,"trials":100000,"win":0.109520,"tie":0.027680,"equity":0.121955}
+  },
+  "J8o": {
+    "1": {"opponents":1,"trials":100000,"win":0.494730,"tie":0.036550,"equity":0.513005},
+    "2": {"opponents":2,"trials":100000,"win":0.322910,"tie":0.034330,"equity":0.338712},
+    "3": {"opponents":3,"trials":100000,"win":0.240120,"tie":0.031060,"equity":0.254122},
+    "4": {"opponents":4,"trials":100000,"win":0.189470,"tie":0.028980,"equity":0.202466},
+    "5": {"opponents":5,"trials":100000,"win":0.154310,"tie":0.027830,"equity":0.166784},
+    "6": {"opponents":6,"trials":100000,"win":0.128640,"tie":0.027260,"equity":0.140909},
+    "7": {"opponents":7,"trials":100000,"win":0.109800,"tie":0.026820,"equity":0.121817}
+  },
+  "T8o": {
+    "1": {"opponents":1,"trials":100000,"win":0.481080,"tie":0.037900,"equity":0.500030},
+    "2": {"opponents":2,"trials":100000,"win":0.320670,"tie":0.033980,"equity":0.336160},
+    "3": {"opponents":3,"trials":100000,"win":0.241700,"tie":0.031180,"equity":0.255686},
+    "4": {"opponents":4,"trials":100000,"win":0.190690,"tie":0.029990,"equity":0.204180},
+    "5": {"opponents":5,"trials":100000,"win":0.156160,"tie":0.029310,"equity":0.169335},
+    "6": {"opponents":6,"trials":100000,"win":0.130640,"tie":0.029000,"equity":0.143673},
+    "7": {"opponents":7,"trials":100000,"win":0.111930,"tie":0.028740,"equity":0.124793}
+  },
+  "98o": {
+    "1": {"opponents":1,"trials":100000,"win":0.459210,"tie":0.039570,"equity":0.478995},
+    "2": {"opponents":2,"trials":100000,"win":0.311740,"tie":0.032310,"equity":0.326310},
+    "3": {"opponents":3,"trials":100000,"win":0.236600,"tie":0.028830,"equity":0.249497},
+    "4": {"opponents":4,"trials":100000,"win":0.188840,"tie":0.026900,"equity":0.201068},
+    "5": {"opponents":5,"trials":100000,"win":0.154520,"tie":0.026320,"equity":0.166561},
+    "6": {"opponents":6,"trials":100000,"win":0.130580,"tie":0.025250,"equity":0.142146},
+    "7": {"opponents":7,"trials":100000,"win":0.112570,"tie":0.024360,"equity":0.123713}
+  },
+  "88": {
+    "1": {"opponents":1,"trials":100000,"win":0.683830,"tie":0.008820,"equity":0.688240},
+    "2": {"opponents":2,"trials":100000,"win":0.493060,"tie":0.008380,"equity":0.496490},
+    "3": {"opponents":3,"trials":100000,"win":0.370360,"tie":0.008340,"equity":0.373652},
+    "4": {"opponents":4,"trials":100000,"win":0.289150,"tie":0.008200,"equity":0.292404},
+    "5": {"opponents":5,"trials":100000,"win":0.236020,"tie":0.008040,"equity":0.239248},
+    "6": {"opponents":6,"trials":100000,"win":0.198030,"tie":0.007960,"equity":0.201299},
+    "7": {"opponents":7,"trials":100000,"win":0.172430,"tie":0.007910,"equity":0.175724}
+  },
+  "87s": {
+    "1": {"opponents":1,"trials":100000,"win":0.454570,"tie":0.045460,"equity":0.477300},
+    "2": {"opponents":2,"trials":100000,"win":0.321720,"tie":0.034340,"equity":0.336973},
+    "3": {"opponents":3,"trials":100000,"win":0.250930,"tie":0.029770,"equity":0.264044},
+    "4": {"opponents":4,"trials":100000,"win":0.205810,"tie":0.027790,"equity":0.218147},
+    "5": {"opponents":5,"trials":100000,"win":0.175190,"tie":0.026120,"equity":0.186862},
+    "6": {"opponents":6,"trials":100000,"win":0.153020,"tie":0.024730,"equity":0.164130},
+    "7": {"opponents":7,"trials":100000,"win":0.136860,"tie":0.023810,"equity":0.147551}
+  },
+  "86s": {
+    "1": {"opponents":1,"trials":100000,"win":0.435760,"tie":0.048380,"equity":0.459950},
+    "2": {"opponents":2,"trials":100000,"win":0.301010,"tie":0.035300,"equity":0.316745},
+    "3": {"opponents":3,"trials":100000,"win":0.233020,"tie":0.030310,"equity":0.246332},
+    "4": {"opponents":4,"trials":100000,"win":0.189120,"tie":0.028190,"equity":0.201639},
+    "5": {"opponents":5,"trials":100000,"win":0.162070,"tie":0.026450,"equity":0.173788},
+    "6": {"opponents":6,"trials":100000,"win":0.142110,"tie":0.025410,"equity":0.153401},
+    "7": {"opponents":7,"trials":100000,"win":0.127900,"tie":0.024320,"equity":0.138722}
+  },
+  "85s": {
+    "1": {"opponents":1,"trials":100000,"win":0.419560,"tie":0.050110,"equity":0.444615},
+    "2": {"opponents":2,"trials":100000,"win":0.285360,"tie":0.035870,"equity":0.301382},
+    "3": {"opponents":3,"trials":100000,"win":0.219580,"tie":0.030450,"equity":0.233047},
+    "4": {"opponents":4,"trials":100000,"win":0.178360,"tie":0.027470,"equity":0.190603},
+    "5": {"opponents":5,"trials":100000,"win":0.151820,"tie":0.025880,"equity":0.163422},
+    "6": {"opponents":6,"trials":100000,"win":0.132610,"tie":0.024520,"equity":0.143574},
+    "7": {"opponents":7,"trials":100000,"win":0.118710,"tie":0.023980,"equity":0.129402}
+  },
+  "84s": {
+    "1": {"opponents":1,"trials":100000,"win":0.403790,"tie":0.051130,"equity":0.429355},
+    "2": {"opponents":2,"trials":100000,"win":0.268090,"tie":0.034860,"equity":0.283602},
+    "3": {"opponents":3,"trials":100000,"win":0.203110,"tie":0.029610,"equity":0.216177},
+    "4": {"opponents":4,"trials":100000,"win":0.164080,"tie":0.027060,"equity":0.176071},
+    "5": {"opponents":5,"trials":100000,"win":0.138960,"tie":0.024870,"equity":0.149963},
+    "6": {"opponents":6,"trials":100000,"win":0.121270,"tie":0.023410,"equity":0.131610},
+    "7": {"opponents":7,"trials":100000,"win":0.108130,"tie":0.022400,"equity":0.117983}
+  },
+  "83s": {
+    "1": {"opponents":1,"trials":100000,"win":0.382890,"tie":0.050960,"equity":0.408370},
+    "2": {"opponents":2,"trials":100000,"win":0.249030,"tie":0.033710,"equity":0.264067},
+    "3": {"opponents":3,"trials":100000,"win":0.186120,"tie":0.027500,"equity":0.198239},
+    "4": {"opponents":4,"trials":100000,"win":0.149700,"tie":0.024620,"equity":0.160552},
+    "5": {"opponents":5,"trials":100000,"win":0.125990,"tie":0.023280,"equity":0.136288},
+    "6": {"opponents":6,"trials":100000,"win":0.110190,"tie":0.022070,"equity":0.119913},
+    "7": {"opponents":7,"trials":100000,"win":0.098280,"tie":0.021140,"equity":0.107499}
+  },
+  "82s": {
+    "1": {"opponents":1,"trials":100000,"win":0.375800,"tie":0.052310,"equity":0.401955},
+    "2": {"opponents":2,"trials":100000,"win":0.241270,"tie":0.034870,"equity":0.256713},
+    "3": {"opponents":3,"trials":100000,"win":0.180830,"tie":0.028050,"equity":0.193043},
+    "4": {"opponents":4,"trials":100000,"win":0.144760,"tie":0.024920,"equity":0.155639},
+    "5": {"opponents":5,"trials":100000,"win":0.122280,"tie":0.022070,"equity":0.131977},
+    "6": {"opponents":6,"trials":100000,"win":0.106620,"tie":0.020510,"equity":0.115641},
+    "7": {"opponents":7,"trials":100000,"win":0.094950,"tie":0.019280,"equity":0.103419}
+  },
+  "A7o": {
+    "1": {"opponents":1,"trials":100000,"win":0.569810,"tie":0.032550,"equity":0.586085},
+    "2": {"opponents":2,"trials":100000,"win":0.372220,"tie":0.038490,"equity":0.390640},
+    "3": {"opponents":3,"trials":100000,"win":0.267630,"tie":0.038810,"equity":0.285877},
+    "4": {"opponents":4,"trials":100000,"win":0.205380,"tie":0.037800,"equity":0.222972},
+    "5": {"opponents":5,"trials":100000,"win":0.165180,"tie":0.036360,"equity":0.181951},
+    "6": {"opponents":6,"trials":100000,"win":0.136160,"tie":0.035010,"equity":0.152195},
+    "7": {"opponents":7,"trials":100000,"win":0.114380,"tie":0.034000,"equity":0.129816}
+  },
+  "K7o": {
+    "1": {"opponents":1,"trials":100000,"win":0.537680,"tie":0.035160,"equity":0.555260},
+    "2": {"opponents":2,"trials":100000,"win":0.344610,"tie":0.038240,"equity":0.362633},
+    "3": {"opponents":3,"trials":100000,"win":0.246270,"tie":0.036400,"equity":0.263058},
+    "4": {"opponents":4,"trials":100000,"win":0.189070,"tie":0.034090,"equity":0.204624},
+    "5": {"opponents":5,"trials":100000,"win":0.150270,"tie":0.033070,"equity":0.165277},
+    "6": {"opponents":6,"trials":100000,"win":0.123060,"tie":0.032160,"equity":0.137621},
+    "7": {"opponents":7,"trials":100000,"win":0.103020,"tie":0.031040,"equity":0.116953}
+  },
+  "Q7o": {
+    "1": {"opponents":1,"trials":100000,"win":0.502830,"tie":0.037380,"equity":0.521520},
+    "2": {"opponents":2,"trials":100000,"win":0.314830,"tie":0.036770,"equity":0.332007},
+    "3": {"opponents":3,"trials":100000,"win":0.225230,"tie":0.034170,"equity":0.240846},
+    "4": {"opponents":4,"trials":100000,"win":0.172050,"tie":0.032470,"equity":0.186765},
+    "5": {"opponents":5,"trials":100000,"win":0.138760,"tie":0.030970,"equity":0.152691},
+    "6": {"opponents":6,"trials":100000,"win":0.113860,"tie":0.030290,"equity":0.127439},
+    "7": {"opponents":7,"trials":100000,"win":0.095230,"tie":0.029570,"equity":0.108385}
+  },
+  "J7o": {
+    "1": {"opponents":1,"trials":100000,"win":0.479420,"tie":0.038930,"equity":0.498885},
+    "2": {"opponents":2,"trials":100000,"win":0.300540,"tie":0.036580,"equity":0.317438},
+    "3": {"opponents":3,"trials":100000,"win":0.218530,"tie":0.032350,"equity":0.233175},
+    "4": {"opponents":4,"trials":100000,"win":0.168770,"tie":0.030720,"equity":0.182608},
+    "5": {"opponents":5,"trials":100000,"win":0.135210,"tie":0.028980,"equity":0.148273},
+    "6": {"opponents":6,"trials":100000,"win":0.110740,"tie":0.027990,"equity":0.123320},
+    "7": {"opponents":7,"trials":100000,"win":0.092840,"tie":0.027370,"equity":0.105053}
+  },
+  "T7o": {
+    "1": {"opponents":1,"trials":100000,"win":0.459030,"tie":0.041470,"equity":0.479765},
+    "2": {"opponents":2,"trials":100000,"win":0.295650,"tie":0.035870,"equity":0.312032},
+    "3": {"opponents":3,"trials":100000,"win":0.216320,"tie":0.031980,"equity":0.230700},
+    "4": {"opponents":4,"trials":100000,"win":0.168360,"tie":0.030200,"equity":0.181959},
+    "5": {"opponents":5,"trials":100000,"win":0.137140,"tie":0.029490,"equity":0.150378},
+    "6": {"opponents":6,"trials":100000,"win":0.114060,"tie":0.028820,"equity":0.126984},
+    "7": {"opponents":7,"trials":100000,"win":0.097330,"tie":0.027900,"equity":0.109760}
+  },
+  "97o": {
+    "1": {"opponents":1,"trials":100000,"win":0.439400,"tie":0.044620,"equity":0.461710},
+    "2": {"opponents":2,"trials":100000,"win":0.290290,"tie":0.034920,"equity":0.306030},
+    "3": {"opponents":3,"trials":100000,"win":0.216780,"tie":0.030970,"equity":0.230672},
+    "4": {"opponents":4,"trials":100000,"win":0.169600,"tie":0.029350,"equity":0.182870},
+    "5": {"opponents":5,"trials":100000,"win":0.138190,"tie":0.028090,"equity":0.150857},
+    "6": {"opponents":6,"trials":100000,"win":0.115330,"tie":0.026690,"equity":0.127323},
+    "7": {"opponents":7,"trials":100000,"win":0.099040,"tie":0.025500,"equity":0.110453}
+  },
+  "87o": {
+    "1": {"opponents":1,"trials":100000,"win":0.428090,"tie":0.047460,"equity":0.451820},
+    "2": {"opponents":2,"trials":100000,"win":0.288130,"tie":0.035210,"equity":0.303873},
+    "3": {"opponents":3,"trials":100000,"win":0.216920,"tie":0.030960,"equity":0.230616},
+    "4": {"opponents":4,"trials":100000,"win":0.171450,"tie":0.028490,"equity":0.184125},
+    "5": {"opponents":5,"trials":100000,"win":0.140390,"tie":0.026760,"equity":0.152347},
+    "6": {"opponents":6,"trials":100000,"win":0.119460,"tie":0.025340,"equity":0.130762},
+    "7": {"opponents":7,"trials":100000,"win":0.103840,"tie":0.024780,"equity":0.114838}
+  },
+  "77": {
+    "1": {"opponents":1,"trials":100000,"win":0.656730,"tie":0.010350,"equity":0.661905},
+    "2": {"opponents":2,"trials":100000,"win":0.460770,"tie":0.009010,"equity":0.464412},
+    "3": {"opponents":3,"trials":100000,"win":0.339830,"tie":0.008580,"equity":0.343166},
+    "4": {"opponents":4,"trials":100000,"win":0.264470,"tie":0.008300,"equity":0.267732},
+    "5": {"opponents":5,"trials":100000,"win":0.216440,"tie":0.008200,"equity":0.219727},
+    "6": {"opponents":6,"trials":100000,"win":0.182920,"tie":0.008390,"equity":0.186406},
+    "7": {"opponents":7,"trials":100000,"win":0.159880,"tie":0.008600,"equity":0.163513}
+  },
+  "76s": {
+    "1": {"opponents":1,"trials":100000,"win":0.429320,"tie":0.050680,"equity":0.454660},
+    "2": {"opponents":2,"trials":100000,"win":0.304380,"tie":0.034740,"equity":0.319785},
+    "3": {"opponents":3,"trials":100000,"win":0.237280,"tie":0.030290,"equity":0.250701},
+    "4": {"opponents":4,"trials":100000,"win":0.196390,"tie":0.027830,"equity":0.208806},
+    "5": {"opponents":5,"trials":100000,"win":0.168020,"tie":0.025780,"equity":0.179546},
+    "6": {"opponents":6,"trials":100000,"win":0.148160,"tie":0.024600,"equity":0.159131},
+    "7": {"opponents":7,"trials":100000,"win":0.134070,"tie":0.023940,"equity":0.144762}
+  },
+  "75s": {
+    "1": {"opponents":1,"trials":100000,"win":0.408360,"tie":0.054740,"equity":0.435730},
+    "2": {"opponents":2,"trials":100000,"win":0.284580,"tie":0.035640,"equity":0.300362},
+    "3": {"opponents":3,"trials":100000,"win":0.219840,"tie":0.030380,"equity":0.233232},
+    "4": {"opponents":4,"trials":100000,"win":0.180510,"tie":0.027030,"equity":0.192498},
+    "5": {"opponents":5,"trials":100000,"win":0.153930,"tie":0.025340,"equity":0.165161},
+    "6": {"opponents":6,"trials":100000,"win":0.136040,"tie":0.024080,"equity":0.146760},
+    "7": {"opponents":7,"trials":100000,"win":0.122850,"tie":0.023630,"equity":0.133348}
+  },
+  "74s": {
+    "1": {"opponents":1,"trials":100000,"win":0.389820,"tie":0.054690,"equity":0.417165},
+    "2": {"opponents":2,"trials":100000,"win":0.265080,"tie":0.035290,"equity":0.280623},
+    "3": {"opponents":3,"trials":100000,"win":0.204060,"tie":0.028930,"equity":0.216704},
+    "4": {"opponents":4,"trials":100000,"win":0.167500,"tie":0.025270,"equity":0.178682},
+    "5": {"opponents":5,"trials":100000,"win":0.142270,"tie":0.023690,"equity":0.152818},
+    "6": {"opponents":6,"trials":100000,"win":0.124910,"tie":0.022530,"equity":0.134953},
+    "7": {"opponents":7,"trials":100000,"win":0.112680,"tie":0.021490,"equity":0.122223}
+  },
+  "73s": {
+    "1": {"opponents":1,"trials":100000,"win":0.373330,"tie":0.053980,"equity":0.400320},
+    "2": {"opponents":2,"trials":100000,"win":0.249350,"tie":0.033500,"equity":0.264070},
+    "3": {"opponents":3,"trials":100000,"win":0.188470,"tie":0.027320,"equity":0.200358},
+    "4": {"opponents":4,"trials":100000,"win":0.153030,"tie":0.024080,"equity":0.163641},
+    "5": {"opponents":5,"trials":100000,"win":0.130380,"tie":0.022290,"equity":0.140196},
+    "6": {"opponents":6,"trials":100000,"win":0.114600,"tie":0.021150,"equity":0.123955},
+    "7": {"opponents":7,"trials":100000,"win":0.102830,"tie":0.020130,"equity":0.111750}
+  },
+  "72s": {
+    "1": {"opponents":1,"trials":100000,"win":0.353330,"tie":0.054440,"equity":0.380550},
+    "2": {"opponents":2,"trials":100000,"win":0.229670,"tie":0.034000,"equity":0.244552},
+    "3": {"opponents":3,"trials":100000,"win":0.172110,"tie":0.027330,"equity":0.183939},
+    "4": {"opponents":4,"trials":100000,"win":0.139060,"tie":0.023730,"equity":0.149319},
+    "5": {"opponents":5,"trials":100000,"win":0.117670,"tie":0.021360,"equity":0.126933},
+    "6": {"opponents":6,"trials":100000,"win":0.103570,"tie":0.019970,"equity":0.112251},
+    "7": {"opponents":7,"trials":100000,"win":0.092730,"tie":0.019140,"equity":0.101088}
+  },
+  "A6o": {
+    "1": {"opponents":1,"trials":100000,"win":0.559030,"tie":0.035620,"equity":0.576840},
+    "2": {"opponents":2,"trials":100000,"win":0.357690,"tie":0.041140,"equity":0.377418},
+    "3": {"opponents":3,"trials":100000,"win":0.254760,"tie":0.040240,"equity":0.273667},
+    "4": {"opponents":4,"trials":100000,"win":0.194380,"tie":0.038730,"equity":0.212442},
+    "5": {"opponents":5,"trials":100000,"win":0.155420,"tie":0.037580,"equity":0.172811},
+    "6": {"opponents":6,"trials":100000,"win":0.127820,"tie":0.036460,"equity":0.144545},
+    "7": {"opponents":7,"trials":100000,"win":0.107790,"tie":0.035310,"equity":0.123791}
+  },
+  "K6o": {
+    "1": {"opponents":1,"trials":100000,"win":0.526960,"tie":0.038760,"equity":0.546340},
+    "2": {"opponents":2,"trials":100000,"win":0.330700,"tie":0.040040,"equity":0.349607},
+    "3": {"opponents":3,"trials":100000,"win":0.234680,"tie":0.037430,"equity":0.252007},
+    "4": {"opponents":4,"trials":100000,"win":0.179450,"tie":0.034950,"equity":0.195512},
+    "5": {"opponents":5,"trials":100000,"win":0.143390,"tie":0.033860,"equity":0.158888},
+    "6": {"opponents":6,"trials":100000,"win":0.117600,"tie":0.032680,"equity":0.132480},
+    "7": {"opponents":7,"trials":100000,"win":0.098660,"tie":0.031910,"equity":0.113065}
+  },
+  "Q6o": {
+    "1": {"opponents":1,"trials":100000,"win":0.486760,"tie":0.040870,"equity":0.507195},
+    "2": {"opponents":2,"trials":100000,"win":0.301300,"tie":0.038760,"equity":0.319440},
+    "3": {"opponents":3,"trials":100000,"win":0.212520,"tie":0.035840,"equity":0.228947},
+    "4": {"opponents":4,"trials":100000,"win":0.162370,"tie":0.033460,"equity":0.177588},
+    "5": {"opponents":5,"trials":100000,"win":0.129120,"tie":0.031810,"equity":0.143597},
+    "6": {"opponents":6,"trials":100000,"win":0.105130,"tie":0.030920,"equity":0.119120},
+    "7": {"opponents":7,"trials":100000,"win":0.087830,"tie":0.029800,"equity":0.101194}
+  },
+  "J6o": {
+    "1": {"opponents":1,"trials":100000,"win":0.455640,"tie":0.042210,"equity":0.476745},
+    "2": {"opponents":2,"trials":100000,"win":0.278740,"tie":0.037190,"equity":0.295917},
+    "3": {"opponents":3,"trials":100000,"win":0.196280,"tie":0.033070,"equity":0.211212},
+    "4": {"opponents":4,"trials":100000,"win":0.149440,"tie":0.031080,"equity":0.163422},
+    "5": {"opponents":5,"trials":100000,"win":0.117540,"tie":0.030580,"equity":0.131263},
+    "6": {"opponents":6,"trials":100000,"win":0.095240,"tie":0.030120,"equity":0.108719},
+    "7": {"opponents":7,"trials":100000,"win":0.078320,"tie":0.029960,"equity":0.091589}
+  },
+  "T6o": {
+    "1": {"opponents":1,"trials":100000,"win":0.437670,"tie":0.045200,"equity":0.460270},
+    "2": {"opponents":2,"trials":100000,"win":0.273220,"tie":0.037400,"equity":0.290400},
+    "3": {"opponents":3,"trials":100000,"win":0.196660,"tie":0.032680,"equity":0.211447},
+    "4": {"opponents":4,"trials":100000,"win":0.150210,"tie":0.031520,"equity":0.164541},
+    "5": {"opponents":5,"trials":100000,"win":0.119670,"tie":0.030230,"equity":0.133432},
+    "6": {"opponents":6,"trials":100000,"win":0.097870,"tie":0.029700,"equity":0.111329},
+    "7": {"opponents":7,"trials":100000,"win":0.082340,"tie":0.029070,"equity":0.095387}
+  },
+  "96o": {
+    "1": {"opponents":1,"trials":100000,"win":0.420880,"tie":0.046920,"equity":0.444340},
+    "2": {"opponents":2,"trials":100000,"win":0.268850,"tie":0.036800,"equity":0.285455},
+    "3": {"opponents":3,"trials":100000,"win":0.195920,"tie":0.031660,"equity":0.210043},
+    "4": {"opponents":4,"trials":100000,"win":0.151820,"tie":0.029850,"equity":0.165239},
+    "5": {"opponents":5,"trials":100000,"win":0.122170,"tie":0.028120,"equity":0.134796},
+    "6": {"opponents":6,"trials":100000,"win":0.101510,"tie":0.027080,"equity":0.113608},
+    "7": {"opponents":7,"trials":100000,"win":0.086540,"tie":0.026100,"equity":0.098150}
+  },
+  "86o": {
+    "1": {"opponents":1,"trials":100000,"win":0.408940,"tie":0.051600,"equity":0.434740},
+    "2": {"opponents":2,"trials":100000,"win":0.267950,"tie":0.036190,"equity":0.284167},
+    "3": {"opponents":3,"trials":100000,"win":0.197870,"tie":0.031020,"equity":0.211638},
+    "4": {"opponents":4,"trials":100000,"win":0.153290,"tie":0.028980,"equity":0.166208},
+    "5": {"opponents":5,"trials":100000,"win":0.125050,"tie":0.027430,"equity":0.137308},
+    "6": {"opponents":6,"trials":100000,"win":0.105480,"tie":0.026250,"equity":0.117226},
+    "7": {"opponents":7,"trials":100000,"win":0.091810,"tie":0.024900,"equity":0.102948}
+  },
+  "76o": {
+    "1": {"opponents":1,"trials":100000,"win":0.398430,"tie":0.052540,"equity":0.424700},
+    "2": {"opponents":2,"trials":100000,"win":0.268310,"tie":0.036530,"equity":0.284548},
+    "3": {"opponents":3,"trials":100000,"win":0.200130,"tie":0.031340,"equity":0.214079},
+    "4": {"opponents":4,"trials":100000,"win":0.158230,"tie":0.028630,"equity":0.171056},
+    "5": {"opponents":5,"trials":100000,"win":0.129150,"tie":0.027140,"equity":0.141358},
+    "6": {"opponents":6,"trials":100000,"win":0.110020,"tie":0.025480,"equity":0.121523},
+    "7": {"opponents":7,"trials":100000,"win":0.096500,"tie":0.024840,"equity":0.107673}
+  },
+  "66": {
+    "1": {"opponents":1,"trials":100000,"win":0.626210,"tie":0.011230,"equity":0.631825},
+    "2": {"opponents":2,"trials":100000,"win":0.427330,"tie":0.008850,"equity":0.430848},
+    "3": {"opponents":3,"trials":100000,"win":0.310790,"tie":0.007980,"equity":0.313813},
+    "4": {"opponents":4,"trials":100000,"win":0.240040,"tie":0.008060,"equity":0.243148},
+    "5": {"opponents":5,"trials":100000,"win":0.196010,"tie":0.008080,"equity":0.199213},
+    "6": {"opponents":6,"trials":100000,"win":0.167770,"tie":0.008270,"equity":0.171166},
+    "7": {"opponents":7,"trials":100000,"win":0.148400,"tie":0.008640,"equity":0.151977}
+  },
+  "65s": {
+    "1": {"opponents":1,"trials":100000,"win":0.401530,"tie":0.055090,"equity":0.429075},
+    "2": {"opponents":2,"trials":100000,"win":0.285750,"tie":0.034890,"equity":0.301148},
+    "3": {"opponents":3,"trials":100000,"win":0.223990,"tie":0.030010,"equity":0.237216},
+    "4": {"opponents":4,"trials":100000,"win":0.185760,"tie":0.026850,"equity":0.197701},
+    "5": {"opponents":5,"trials":100000,"win":0.159920,"tie":0.025150,"equity":0.171119},
+    "6": {"opponents":6,"trials":100000,"win":0.141900,"tie":0.023660,"equity":0.152419},
+    "7": {"opponents":7,"trials":100000,"win":0.128120,"tie":0.022780,"equity":0.138266}
+  },
+  "64s": {
+    "1": {"opponents":1,"trials":100000,"win":0.386070,"tie":0.057300,"equity":0.414720},
+    "2": {"opponents":2,"trials":100000,"win":0.270860,"tie":0.034640,"equity":0.286093},
+    "3": {"opponents":3,"trials":100000,"win":0.209260,"tie":0.028460,"equity":0.221755},
+    "4": {"opponents":4,"trials":100000,"win":0.172620,"tie":0.025670,"equity":0.183916},
+    "5": {"opponents":5,"trials":100000,"win":0.148690,"tie":0.023720,"equity":0.159158},
+    "6": {"opponents":6,"trials":100000,"win":0.132200,"tie":0.022380,"equity":0.142053},
+    "7": {"opponents":7,"trials":100000,"win":0.119700,"tie":0.021670,"equity":0.129228}
+  },
+  "63s": {
+    "1": {"opponents":1,"trials":100000,"win":0.367210,"tie":0.056960,"equity":0.395690},
+    "2": {"opponents":2,"trials":100000,"win":0.252310,"tie":0.033890,"equity":0.267188},
+    "3": {"opponents":3,"trials":100000,"win":0.194200,"tie":0.027000,"equity":0.205916},
+    "4": {"opponents":4,"trials":100000,"win":0.159100,"tie":0.024270,"equity":0.169694},
+    "5": {"opponents":5,"trials":100000,"win":0.136690,"tie":0.022400,"equity":0.146498},
+    "6": {"opponents":6,"trials":100000,"win":0.121460,"tie":0.020520,"equity":0.130455},
+    "7": {"opponents":7,"trials":100000,"win":0.109590,"tie":0.019670,"equity":0.118219}
+  },
+  "62s": {
+    "1": {"opponents":1,"trials":100000,"win":0.346100,"tie":0.056960,"equity":0.374580},
+    "2": {"opponents":2,"trials":100000,"win":0.232540,"tie":0.033010,"equity":0.246848},
+    "3": {"opponents":3,"trials":100000,"win":0.176900,"tie":0.026250,"equity":0.188215},
+    "4": {"opponents":4,"trials":100000,"win":0.143990,"tie":0.022730,"equity":0.153823},
+    "5": {"opponents":5,"trials":100000,"win":0.123120,"tie":0.020360,"equity":0.131951},
+    "6": {"opponents":6,"trials":100000,"win":0.108910,"tie":0.018610,"equity":0.116982},
+    "7": {"opponents":7,"trials":100000,"win":0.097990,"tie":0.017680,"equity":0.105692}
+  },
+  "A5o": {
+    "1": {"opponents":1,"trials":100000,"win":0.556880,"tie":0.039180,"equity":0.576470},
+    "2": {"opponents":2,"trials":100000,"win":0.362160,"tie":0.042980,"equity":0.382817},
+    "3": {"opponents":3,"trials":100000,"win":0.260780,"tie":0.042110,"equity":0.280654},
+    "4": {"opponents":4,"trials":100000,"win":0.201790,"tie":0.040340,"equity":0.220593},
+    "5": {"opponents":5,"trials":100000,"win":0.162140,"tie":0.039590,"equity":0.180481},
+    "6": {"opponents":6,"trials":100000,"win":0.134790,"tie":0.038260,"equity":0.152387},
+    "7": {"opponents":7,"trials":100000,"win":0.114550,"tie":0.036210,"equity":0.131130}
+  },
+  "K5o": {
+    "1": {"opponents":1,"trials":100000,"win":0.509900,"tie":0.040280,"equity":0.530040},
+    "2": {"opponents":2,"trials":100000,"win":0.317240,"tie":0.041990,"equity":0.337152},
+    "3": {"opponents":3,"trials":100000,"win":0.224130,"tie":0.039330,"equity":0.242438},
+    "4": {"opponents":4,"trials":100000,"win":0.170220,"tie":0.036850,"equity":0.187209},
+    "5": {"opponents":5,"trials":100000,"win":0.135410,"tie":0.034740,"equity":0.151346},
+    "6": {"opponents":6,"trials":100000,"win":0.111090,"tie":0.033350,"equity":0.126310},
+    "7": {"opponents":7,"trials":100000,"win":0.093240,"tie":0.032030,"equity":0.107718}
+  },
+  "Q5o": {
+    "1": {"opponents":1,"trials":100000,"win":0.480870,"tie":0.043080,"equity":0.502410},
+    "2": {"opponents":2,"trials":100000,"win":0.294710,"tie":0.040830,"equity":0.313840},
+    "3": {"opponents":3,"trials":100000,"win":0.207950,"tie":0.036990,"equity":0.225006},
+    "4": {"opponents":4,"trials":100000,"win":0.157490,"tie":0.034110,"equity":0.173096},
+    "5": {"opponents":5,"trials":100000,"win":0.123880,"tie":0.032250,"equity":0.138579},
+    "6": {"opponents":6,"trials":100000,"win":0.101040,"tie":0.031690,"equity":0.115411},
+    "7": {"opponents":7,"trials":100000,"win":0.084410,"tie":0.030640,"equity":0.098230}
+  },
+  "J5o": {
+    "1": {"opponents":1,"trials":100000,"win":0.451660,"tie":0.046140,"equity":0.474730},
+    "2": {"opponents":2,"trials":100000,"win":0.275250,"tie":0.040710,"equity":0.294002},
+    "3": {"opponents":3,"trials":100000,"win":0.192320,"tie":0.036300,"equity":0.208623},
+    "4": {"opponents":4,"trials":100000,"win":0.146380,"tie":0.034260,"equity":0.161750},
+    "5": {"opponents":5,"trials":100000,"win":0.115780,"tie":0.032150,"equity":0.130195},
+    "6": {"opponents":6,"trials":100000,"win":0.093350,"tie":0.031300,"equity":0.107384},
+    "7": {"opponents":7,"trials":100000,"win":0.077380,"tie":0.030390,"equity":0.090962}
+  },
+  "T5o": {
+    "1": {"opponents":1,"trials":100000,"win":0.420330,"tie":0.048980,"equity":0.444820},
+    "2": {"opponents":2,"trials":100000,"win":0.253900,"tie":0.038760,"equity":0.271705},
+    "3": {"opponents":3,"trials":100000,"win":0.177960,"tie":0.033560,"equity":0.193099},
+    "4": {"opponents":4,"trials":100000,"win":0.133350,"tie":0.032070,"equity":0.147808},
+    "5": {"opponents":5,"trials":100000,"win":0.104710,"tie":0.030840,"equity":0.118658},
+    "6": {"opponents":6,"trials":100000,"win":0.084640,"tie":0.030420,"equity":0.098377},
+    "7": {"opponents":7,"trials":100000,"win":0.070080,"tie":0.030020,"equity":0.083507}
+  },
+  "95o": {
+    "1": {"opponents":1,"trials":100000,"win":0.402600,"tie":0.049660,"equity":0.427430},
+    "2": {"opponents":2,"trials":100000,"win":0.248640,"tie":0.037110,"equity":0.265425},
+    "3": {"opponents":3,"trials":100000,"win":0.177190,"tie":0.031600,"equity":0.191349},
+    "4": {"opponents":4,"trials":100000,"win":0.133940,"tie":0.029390,"equity":0.147114},
+    "5": {"opponents":5,"trials":100000,"win":0.105790,"tie":0.027980,"equity":0.118398},
+    "6": {"opponents":6,"trials":100000,"win":0.085910,"tie":0.027110,"equity":0.098076},
+    "7": {"opponents":7,"trials":100000,"win":0.072390,"tie":0.025830,"equity":0.083901}
+  },
+  "85o": {
+    "1": {"opponents":1,"trials":100000,"win":0.386880,"tie":0.055070,"equity":0.414415},
+    "2": {"opponents":2,"trials":100000,"win":0.247650,"tie":0.038200,"equity":0.264803},
+    "3": {"opponents":3,"trials":100000,"win":0.178840,"tie":0.032240,"equity":0.193168},
+    "4": {"opponents":4,"trials":100000,"win":0.137090,"tie":0.029960,"equity":0.150399},
+    "5": {"opponents":5,"trials":100000,"win":0.110110,"tie":0.028050,"equity":0.122579},
+    "6": {"opponents":6,"trials":100000,"win":0.091720,"tie":0.026610,"equity":0.103541},
+    "7": {"opponents":7,"trials":100000,"win":0.078100,"tie":0.025440,"equity":0.089332}
+  },
+  "75o": {
+    "1": {"opponents":1,"trials":100000,"win":0.376220,"tie":0.057570,"equity":0.405005},
+    "2": {"opponents":2,"trials":100000,"win":0.248270,"tie":0.036460,"equity":0.264492},
+    "3": {"opponents":3,"trials":100000,"win":0.181530,"tie":0.031630,"equity":0.195527},
+    "4": {"opponents":4,"trials":100000,"win":0.142210,"tie":0.028880,"equity":0.155025},
+    "5": {"opponents":5,"trials":100000,"win":0.116320,"tie":0.027230,"equity":0.128454},
+    "6": {"opponents":6,"trials":100000,"win":0.097700,"tie":0.026280,"equity":0.109405},
+    "7": {"opponents":7,"trials":100000,"win":0.085180,"tie":0.025600,"equity":0.096550}
+  },
+  "65o": {
+    "1": {"opponents":1,"trials":100000,"win":0.371360,"tie":0.060150,"equity":0.401435},
+    "2": {"opponents":2,"trials":100000,"win":0.250960,"tie":0.037340,"equity":0.267417},
+    "3": {"opponents":3,"trials":100000,"win":0.185590,"tie":0.031730,"equity":0.199602},
+    "4": {"opponents":4,"trials":100000,"win":0.145570,"tie":0.028720,"equity":0.158396},
+    "5": {"opponents":5,"trials":100000,"win":0.120150,"tie":0.026910,"equity":0.132185},
+    "6": {"opponents":6,"trials":100000,"win":0.102430,"tie":0.025730,"equity":0.113949},
+    "7": {"opponents":7,"trials":100000,"win":0.090110,"tie":0.024550,"equity":0.101062}
+  },
+  "55": {
+    "1": {"opponents":1,"trials":100000,"win":0.596970,"tie":0.013760,"equity":0.603850},
+    "2": {"opponents":2,"trials":100000,"win":0.394460,"tie":0.010680,"equity":0.398632},
+    "3": {"opponents":3,"trials":100000,"win":0.283170,"tie":0.009100,"equity":0.286521},
+    "4": {"opponents":4,"trials":100000,"win":0.218710,"tie":0.008700,"equity":0.221943},
+    "5": {"opponents":5,"trials":100000,"win":0.179760,"tie":0.008450,"equity":0.182998},
+    "6": {"opponents":6,"trials":100000,"win":0.155100,"tie":0.008430,"equity":0.158438},
+    "7": {"opponents":7,"trials":100000,"win":0.138570,"tie":0.008160,"equity":0.141867}
+  },
+  "54s": {
+    "1": {"opponents":1,"trials":100000,"win":0.386370,"tie":0.058340,"equity":0.415540},
+    "2": {"opponents":2,"trials":100000,"win":0.276720,"tie":0.034530,"equity":0.291885},
+    "3": {"opponents":3,"trials":100000,"win":0.215150,"tie":0.029180,"equity":0.227957},
+    "4": {"opponents":4,"trials":100000,"win":0.178090,"tie":0.026890,"equity":0.189980},
+    "5": {"opponents":5,"trials":100000,"win":0.154570,"tie":0.024570,"equity":0.165362},
+    "6": {"opponents":6,"trials":100000,"win":0.138050,"tie":0.022910,"equity":0.148122},
+    "7": {"opponents":7,"trials":100000,"win":0.125720,"tie":0.022160,"equity":0.135510}
+  },
+  "53s": {
+    "1": {"opponents":1,"trials":100000,"win":0.367710,"tie":0.058870,"equity":0.397145},
+    "2": {"opponents":2,"trials":100000,"win":0.257280,"tie":0.034330,"equity":0.272295},
+    "3": {"opponents":3,"trials":100000,"win":0.199810,"tie":0.028070,"equity":0.212008},
+    "4": {"opponents":4,"trials":100000,"win":0.165570,"tie":0.025090,"equity":0.176556},
+    "5": {"opponents":5,"trials":100000,"win":0.143620,"tie":0.023160,"equity":0.153758},
+    "6": {"opponents":6,"trials":100000,"win":0.129130,"tie":0.021500,"equity":0.138567},
+    "7": {"opponents":7,"trials":100000,"win":0.117680,"tie":0.021160,"equity":0.126979}
+  },
+  "52s": {
+    "1": {"opponents":1,"trials":100000,"win":0.348430,"tie":0.058930,"equity":0.377895},
+    "2": {"opponents":2,"trials":100000,"win":0.238090,"tie":0.033170,"equity":0.252470},
+    "3": {"opponents":3,"trials":100000,"win":0.181200,"tie":0.026810,"equity":0.192809},
+    "4": {"opponents":4,"trials":100000,"win":0.149590,"tie":0.022980,"equity":0.159566},
+    "5": {"opponents":5,"trials":100000,"win":0.130310,"tie":0.020350,"equity":0.139169},
+    "6": {"opponents":6,"trials":100000,"win":0.116840,"tie":0.018920,"equity":0.125098},
+    "7": {"opponents":7,"trials":100000,"win":0.105770,"tie":0.018200,"equity":0.113772}
+  },
+  "A4o": {
+    "1": {"opponents":1,"trials":100000,"win":0.547210,"tie":0.040180,"equity":0.567300},
+    "2": {"opponents":2,"trials":100000,"win":0.349700,"tie":0.043950,"equity":0.370753},
+    "3": {"opponents":3,"trials":100000,"win":0.249610,"tie":0.042110,"equity":0.269422},
+    "4": {"opponents":4,"trials":100000,"win":0.192630,"tie":0.039810,"equity":0.211176},
+    "5": {"opponents":5,"trials":100000,"win":0.155230,"tie":0.038040,"equity":0.172823},
+    "6": {"opponents":6,"trials":100000,"win":0.129230,"tie":0.035800,"equity":0.145671},
+    "7": {"opponents":7,"trials":100000,"win":0.109820,"tie":0.034590,"equity":0.125653}
+  },
+  "K4o": {
+    "1": {"opponents":1,"trials":100000,"win":0.503350,"tie":0.041860,"equity":0.524280},
+    "2": {"opponents":2,"trials":100000,"win":0.311660,"tie":0.041580,"equity":0.331365},
+    "3": {"opponents":3,"trials":100000,"win":0.220050,"tie":0.038200,"equity":0.237737},
+    "4": {"opponents":4,"trials":100000,"win":0.166600,"tie":0.035950,"equity":0.183113},
+    "5": {"opponents":5,"trials":100000,"win":0.132440,"tie":0.033910,"equity":0.147932},
+    "6": {"opponents":6,"trials":100000,"win":0.108830,"tie":0.032200,"equity":0.123472},
+    "7": {"opponents":7,"trials":100000,"win":0.091200,"tie":0.030760,"equity":0.105090}
+  },
+  "Q4o": {
+    "1": {"opponents":1,"trials":100000,"win":0.465070,"tie":0.044090,"equity":0.487115},
+    "2": {"opponents":2,"trials":100000,"win":0.282350,"tie":0.041120,"equity":0.301627},
+    "3": {"opponents":3,"trials":100000,"win":0.197940,"tie":0.036470,"equity":0.214599},
+    "4": {"opponents":4,"trials":100000,"win":0.149890,"tie":0.033760,"equity":0.165191},
+    "5": {"opponents":5,"trials":100000,"win":0.118600,"tie":0.031950,"equity":0.133034},
+    "6": {"opponents":6,"trials":100000,"win":0.096990,"tie":0.030570,"equity":0.110797},
+    "7": {"opponents":7,"trials":100000,"win":0.080430,"tie":0.029420,"equity":0.093682}
+  },
+  "J4o": {
+    "1": {"opponents":1,"trials":100000,"win":0.437400,"tie":0.046930,"equity":0.460865},
+    "2": {"opponents":2,"trials":100000,"win":0.262910,"tie":0.040330,"equity":0.281608},
+    "3": {"opponents":3,"trials":100000,"win":0.182820,"tie":0.035160,"equity":0.198835},
+    "4": {"opponents":4,"trials":100000,"win":0.137620,"tie":0.033010,"equity":0.152548},
+    "5": {"opponents":5,"trials":100000,"win":0.108700,"tie":0.031080,"equity":0.122764},
+    "6": {"opponents":6,"trials":100000,"win":0.088770,"tie":0.029730,"equity":0.102150},
+    "7": {"opponents":7,"trials":100000,"win":0.073680,"tie":0.028740,"equity":0.086544}
+  },
+  "T4o": {
+    "1": {"opponents":1,"trials":100000,"win":0.408760,"tie":0.049380,"equity":0.433450},
+    "2": {"opponents":2,"trials":100000,"win":0.243880,"tie":0.039150,"equity":0.261750},
+    "3": {"opponents":3,"trials":100000,"win":0.170750,"tie":0.033920,"equity":0.185878},
+    "4": {"opponents":4,"trials":100000,"win":0.127840,"tie":0.031600,"equity":0.141981},
+    "5": {"opponents":5,"trials":100000,"win":0.099470,"tie":0.030650,"equity":0.113189},
+    "6": {"opponents":6,"trials":100000,"win":0.080040,"tie":0.029970,"equity":0.093346},
+    "7": {"opponents":7,"trials":100000,"win":0.066520,"tie":0.029530,"equity":0.079556}
+  },
+  "94o": {
+    "1": {"opponents":1,"trials":100000,"win":0.378920,"tie":0.052850,"equity":0.405345},
+    "2": {"opponents":2,"trials":100000,"win":0.228880,"tie":0.038240,"equity":0.246140},
+    "3": {"opponents":3,"trials":100000,"win":0.159190,"tie":0.032720,"equity":0.173753},
+    "4": {"opponents":4,"trials":100000,"win":0.117940,"tie":0.030380,"equity":0.131427},
+    "5": {"opponents":5,"trials":100000,"win":0.091980,"tie":0.028760,"equity":0.104719},
+    "6": {"opponents":6,"trials":100000,"win":0.073720,"tie":0.027490,"equity":0.085845},
+    "7": {"opponents":7,"trials":100000,"win":0.061490,"tie":0.026200,"equity":0.072926}
+  },
+  "84o": {
+    "1": {"opponents":1,"trials":100000,"win":0.365340,"tie":0.055830,"equity":0.393255},
+    "2": {"opponents":2,"trials":100000,"win":0.227220,"tie":0.037180,"equity":0.243765},
+    "3": {"opponents":3,"trials":100000,"win":0.161300,"tie":0.030680,"equity":0.174841},
+    "4": {"opponents":4,"trials":100000,"win":0.122880,"tie":0.027330,"equity":0.134987},
+    "5": {"opponents":5,"trials":100000,"win":0.097610,"tie":0.025140,"equity":0.108826},
+    "6": {"opponents":6,"trials":100000,"win":0.080490,"tie":0.023410,"equity":0.090880},
+    "7": {"opponents":7,"trials":100000,"win":0.068570,"tie":0.022880,"equity":0.078717}
+  },
+  "74o": {
+    "1": {"opponents":1,"trials":100000,"win":0.356280,"tie":0.057970,"equity":0.385265},
+    "2": {"opponents":2,"trials":100000,"win":0.229040,"tie":0.036380,"equity":0.245190},
+    "3": {"opponents":3,"trials":100000,"win":0.164310,"tie":0.030650,"equity":0.177843},
+    "4": {"opponents":4,"trials":100000,"win":0.125450,"tie":0.027210,"equity":0.137454},
+    "5": {"opponents":5,"trials":100000,"win":0.101260,"tie":0.024750,"equity":0.112157},
+    "6": {"opponents":6,"trials":100000,"win":0.085140,"tie":0.023860,"equity":0.095698},
+    "7": {"opponents":7,"trials":100000,"win":0.073540,"tie":0.023400,"equity":0.083906}
+  },
+  "64o": {
+    "1": {"opponents":1,"trials":100000,"win":0.351360,"tie":0.059540,"equity":0.381130},
+    "2": {"opponents":2,"trials":100000,"win":0.232830,"tie":0.035480,"equity":0.248428},
+    "3": {"opponents":3,"trials":100000,"win":0.170880,"tie":0.028950,"equity":0.183513},
+    "4": {"opponents":4,"trials":100000,"win":0.133570,"tie":0.025920,"equity":0.145017},
+    "5": {"opponents":5,"trials":100000,"win":0.110500,"tie":0.023730,"equity":0.120999},
+    "6": {"opponents":6,"trials":100000,"win":0.094340,"tie":0.022470,"equity":0.104298},
+    "7": {"opponents":7,"trials":100000,"win":0.082770,"tie":0.021450,"equity":0.092267}
+  },
+  "54o": {
+    "1": {"opponents":1,"trials":100000,"win":0.350780,"tie":0.061110,"equity":0.381335},
+    "2": {"opponents":2,"trials":100000,"win":0.237240,"tie":0.037130,"equity":0.253472},
+    "3": {"opponents":3,"trials":100000,"win":0.175750,"tie":0.030710,"equity":0.189153},
+    "4": {"opponents":4,"trials":100000,"win":0.139880,"tie":0.027420,"equity":0.151911},
+    "5": {"opponents":5,"trials":100000,"win":0.115960,"tie":0.025300,"equity":0.127073},
+    "6": {"opponents":6,"trials":100000,"win":0.099990,"tie":0.023970,"equity":0.110566},
+    "7": {"opponents":7,"trials":100000,"win":0.088460,"tie":0.022900,"equity":0.098534}
+  },
+  "44": {
+    "1": {"opponents":1,"trials":100000,"win":0.561000,"tie":0.015370,"equity":0.568685},
+    "2": {"opponents":2,"trials":100000,"win":0.363680,"tie":0.011230,"equity":0.367995},
+    "3": {"opponents":3,"trials":100000,"win":0.259400,"tie":0.009530,"equity":0.262790},
+    "4": {"opponents":4,"trials":100000,"win":0.201900,"tie":0.008550,"equity":0.204938},
+    "5": {"opponents":5,"trials":100000,"win":0.168970,"tie":0.007920,"equity":0.171813},
+    "6": {"opponents":6,"trials":100000,"win":0.149400,"tie":0.007440,"equity":0.152163},
+    "7": {"opponents":7,"trials":100000,"win":0.136200,"tie":0.007140,"equity":0.138910}
+  },
+  "43s": {
+    "1": {"opponents":1,"trials":100000,"win":0.356170,"tie":0.058180,"equity":0.385260},
+    "2": {"opponents":2,"trials":100000,"win":0.249240,"tie":0.033120,"equity":0.263578},
+    "3": {"opponents":3,"trials":100000,"win":0.191620,"tie":0.025910,"equity":0.202770},
+    "4": {"opponents":4,"trials":100000,"win":0.157640,"tie":0.022710,"equity":0.167387},
+    "5": {"opponents":5,"trials":100000,"win":0.136870,"tie":0.020350,"equity":0.145622},
+    "6": {"opponents":6,"trials":100000,"win":0.122110,"tie":0.019200,"equity":0.130436},
+    "7": {"opponents":7,"trials":100000,"win":0.111470,"tie":0.018300,"equity":0.119453}
+  },
+  "42s": {
+    "1": {"opponents":1,"trials":100000,"win":0.339040,"tie":0.057940,"equity":0.368010},
+    "2": {"opponents":2,"trials":100000,"win":0.232060,"tie":0.032410,"equity":0.246112},
+    "3": {"opponents":3,"trials":100000,"win":0.177940,"tie":0.024630,"equity":0.188451},
+    "4": {"opponents":4,"trials":100000,"win":0.146500,"tie":0.020790,"equity":0.155396},
+    "5": {"opponents":5,"trials":100000,"win":0.127220,"tie":0.018580,"equity":0.135207},
+    "6": {"opponents":6,"trials":100000,"win":0.114370,"tie":0.017220,"equity":0.121846},
+    "7": {"opponents":7,"trials":100000,"win":0.104560,"tie":0.016200,"equity":0.111550}
+  },
+  "A3o": {
+    "1": {"opponents":1,"trials":100000,"win":0.538620,"tie":0.040930,"equity":0.559085},
+    "2": {"opponents":2,"trials":100000,"win":0.342340,"tie":0.042870,"equity":0.362762},
+    "3": {"opponents":3,"trials":100000,"win":0.245740,"tie":0.040780,"equity":0.264725},
+    "4": {"opponents":4,"trials":100000,"win":0.189340,"tie":0.038820,"equity":0.207213},
+    "5": {"opponents":5,"trials":100000,"win":0.153370,"tie":0.036740,"equity":0.170159},
+    "6": {"opponents":6,"trials":100000,"win":0.127700,"tie":0.034670,"equity":0.143433},
+    "7": {"opponents":7,"trials":100000,"win":0.108760,"tie":0.033070,"equity":0.123726}
+  },
+  "K3o": {
+    "1": {"opponents":1,"trials":100000,"win":0.495080,"tie":0.042260,"equity":0.516210},
+    "2": {"opponents":2,"trials":100000,"win":0.302230,"tie":0.041910,"equity":0.321998},
+    "3": {"opponents":3,"trials":100000,"win":0.211500,"tie":0.037690,"equity":0.228856},
+    "4": {"opponents":4,"trials":100000,"win":0.160120,"tie":0.034430,"equity":0.175827},
+    "5": {"opponents":5,"trials":100000,"win":0.128240,"tie":0.032540,"equity":0.143009},
+    "6": {"opponents":6,"trials":100000,"win":0.105860,"tie":0.030580,"equity":0.119675},
+    "7": {"opponents":7,"trials":100000,"win":0.088670,"tie":0.028810,"equity":0.101680}
+  },
+  "Q3o": {
+    "1": {"opponents":1,"trials":100000,"win":0.460140,"tie":0.042660,"equity":0.481470},
+    "2": {"opponents":2,"trials":100000,"win":0.276950,"tie":0.038940,"equity":0.295113},
+    "3": {"opponents":3,"trials":100000,"win":0.192920,"tie":0.035240,"equity":0.209009},
+    "4": {"opponents":4,"trials":100000,"win":0.145350,"tie":0.031610,"equity":0.159642},
+    "5": {"opponents":5,"trials":100000,"win":0.115620,"tie":0.029570,"equity":0.128958},
+    "6": {"opponents":6,"trials":100000,"win":0.094490,"tie":0.028030,"equity":0.107085},
+    "7": {"opponents":7,"trials":100000,"win":0.079160,"tie":0.026960,"equity":0.091212}
+  },
+  "J3o": {
+    "1": {"opponents":1,"trials":100000,"win":0.429520,"tie":0.045170,"equity":0.452105},
+    "2": {"opponents":2,"trials":100000,"win":0.255210,"tie":0.038080,"equity":0.272753},
+    "3": {"opponents":3,"trials":100000,"win":0.179960,"tie":0.033060,"equity":0.194842},
+    "4": {"opponents":4,"trials":100000,"win":0.136320,"tie":0.029750,"equity":0.149581},
+    "5": {"opponents":5,"trials":100000,"win":0.106870,"tie":0.028060,"equity":0.119381},
+    "6": {"opponents":6,"trials":100000,"win":0.087340,"tie":0.027150,"equity":0.099487},
+    "7": {"opponents":7,"trials":100000,"win":0.073260,"tie":0.025860,"equity":0.084785}
+  },
+  "T3o": {
+    "1": {"opponents":1,"trials":100000,"win":0.399050,"tie":0.048930,"equity":0.423515},
+    "2": {"opponents":2,"trials":100000,"win":0.236820,"tie":0.038300,"equity":0.254358},
+    "3": {"opponents":3,"trials":100000,"win":0.164010,"tie":0.032170,"equity":0.178469},
+    "4": {"opponents":4,"trials":100000,"win":0.122320,"tie":0.029670,"equity":0.135609},
+    "5": {"opponents":5,"trials":100000,"win":0.096090,"tie":0.028180,"equity":0.108713},
+    "6": {"opponents":6,"trials":100000,"win":0.077990,"tie":0.027160,"equity":0.090090},
+    "7": {"opponents":7,"trials":100000,"win":0.065060,"tie":0.026610,"equity":0.076822}
+  },
+  "93o": {
+    "1": {"opponents":1,"trials":100000,"win":0.374060,"tie":0.052120,"equity":0.400120},
+    "2": {"opponents":2,"trials":100000,"win":0.220830,"tie":0.036990,"equity":0.237485},
+    "3": {"opponents":3,"trials":100000,"win":0.153860,"tie":0.031230,"equity":0.167662},
+    "4": {"opponents":4,"trials":100000,"win":0.113050,"tie":0.027590,"equity":0.125254},
+    "5": {"opponents":5,"trials":100000,"win":0.088810,"tie":0.025640,"equity":0.100212},
+    "6": {"opponents":6,"trials":100000,"win":0.072620,"tie":0.024350,"equity":0.083423},
+    "7": {"opponents":7,"trials":100000,"win":0.060400,"tie":0.022890,"equity":0.070491}
+  },
+  "83o": {
+    "1": {"opponents":1,"trials":100000,"win":0.348350,"tie":0.054640,"equity":0.375670},
+    "2": {"opponents":2,"trials":100000,"win":0.207840,"tie":0.036270,"equity":0.223968},
+    "3": {"opponents":3,"trials":100000,"win":0.144340,"tie":0.029960,"equity":0.157460},
+    "4": {"opponents":4,"trials":100000,"win":0.107150,"tie":0.026760,"equity":0.118941},
+    "5": {"opponents":5,"trials":100000,"win":0.084600,"tie":0.025210,"equity":0.095676},
+    "6": {"opponents":6,"trials":100000,"win":0.068210,"tie":0.023750,"equity":0.078666},
+    "7": {"opponents":7,"trials":100000,"win":0.057350,"tie":0.022720,"equity":0.067360}
+  },
+  "73o": {
+    "1": {"opponents":1,"trials":100000,"win":0.334590,"tie":0.058330,"equity":0.363755},
+    "2": {"opponents":2,"trials":100000,"win":0.207710,"tie":0.035670,"equity":0.223378},
+    "3": {"opponents":3,"trials":100000,"win":0.145650,"tie":0.029020,"equity":0.158318},
+    "4": {"opponents":4,"trials":100000,"win":0.109140,"tie":0.025580,"equity":0.120366},
+    "5": {"opponents":5,"trials":100000,"win":0.087830,"tie":0.023420,"equity":0.098134},
+    "6": {"opponents":6,"trials":100000,"win":0.073380,"tie":0.021980,"equity":0.083055},
+    "7": {"opponents":7,"trials":100000,"win":0.062920,"tie":0.020980,"equity":0.072145}
+  },
+  "63o": {
+    "1": {"opponents":1,"trials":100000,"win":0.331180,"tie":0.059930,"equity":0.361145},
+    "2": {"opponents":2,"trials":100000,"win":0.214380,"tie":0.034940,"equity":0.229675},
+    "3": {"opponents":3,"trials":100000,"win":0.153910,"tie":0.029010,"equity":0.166556},
+    "4": {"opponents":4,"trials":100000,"win":0.119580,"tie":0.025590,"equity":0.130730},
+    "5": {"opponents":5,"trials":100000,"win":0.098000,"tie":0.023130,"equity":0.108087},
+    "6": {"opponents":6,"trials":100000,"win":0.082970,"tie":0.021550,"equity":0.092390},
+    "7": {"opponents":7,"trials":100000,"win":0.072370,"tie":0.020960,"equity":0.081591}
+  },
+  "53o": {
+    "1": {"opponents":1,"trials":100000,"win":0.331620,"tie":0.062080,"equity":0.362660},
+    "2": {"opponents":2,"trials":100000,"win":0.218630,"tie":0.033640,"equity":0.233335},
+    "3": {"opponents":3,"trials":100000,"win":0.159170,"tie":0.028010,"equity":0.171396},
+    "4": {"opponents":4,"trials":100000,"win":0.125030,"tie":0.024870,"equity":0.135923},
+    "5": {"opponents":5,"trials":100000,"win":0.103160,"tie":0.022970,"equity":0.113294},
+    "6": {"opponents":6,"trials":100000,"win":0.088540,"tie":0.021740,"equity":0.098142},
+    "7": {"opponents":7,"trials":100000,"win":0.077930,"tie":0.021020,"equity":0.087239}
+  },
+  "43o": {
+    "1": {"opponents":1,"trials":100000,"win":0.322940,"tie":0.061070,"equity":0.353475},
+    "2": {"opponents":2,"trials":100000,"win":0.210540,"tie":0.034910,"equity":0.225672},
+    "3": {"opponents":3,"trials":100000,"win":0.152180,"tie":0.027780,"equity":0.164063},
+    "4": {"opponents":4,"trials":100000,"win":0.118720,"tie":0.023820,"equity":0.128901},
+    "5": {"opponents":5,"trials":100000,"win":0.098670,"tie":0.021490,"equity":0.107847},
+    "6": {"opponents":6,"trials":100000,"win":0.084720,"tie":0.019830,"equity":0.093222},
+    "7": {"opponents":7,"trials":100000,"win":0.074740,"tie":0.018510,"equity":0.082711}
+  },
+  "33": {
+    "1": {"opponents":1,"trials":100000,"win":0.529500,"tie":0.016570,"equity":0.537785},
+    "2": {"opponents":2,"trials":100000,"win":0.332010,"tie":0.011120,"equity":0.336145},
+    "3": {"opponents":3,"trials":100000,"win":0.237330,"tie":0.008830,"equity":0.240274},
+    "4": {"opponents":4,"trials":100000,"win":0.188000,"tie":0.007400,"equity":0.190413},
+    "5": {"opponents":5,"trials":100000,"win":0.160900,"tie":0.006470,"equity":0.163005},
+    "6": {"opponents":6,"trials":100000,"win":0.144650,"tie":0.005950,"equity":0.146617},
+    "7": {"opponents":7,"trials":100000,"win":0.133570,"tie":0.005400,"equity":0.135438}
+  },
+  "32s": {
+    "1": {"opponents":1,"trials":100000,"win":0.333480,"tie":0.058280,"equity":0.362620},
+    "2": {"opponents":2,"trials":100000,"win":0.228000,"tie":0.031250,"equity":0.241433},
+    "3": {"opponents":3,"trials":100000,"win":0.175030,"tie":0.023670,"equity":0.185099},
+    "4": {"opponents":4,"trials":100000,"win":0.145440,"tie":0.019390,"equity":0.153663},
+    "5": {"opponents":5,"trials":100000,"win":0.126810,"tie":0.017110,"equity":0.134067},
+    "6": {"opponents":6,"trials":100000,"win":0.113060,"tie":0.015940,"equity":0.119858},
+    "7": {"opponents":7,"trials":100000,"win":0.103100,"tie":0.014870,"equity":0.109455}
+  },
+  "A2o": {
+    "1": {"opponents":1,"trials":100000,"win":0.528690,"tie":0.038920,"equity":0.548150},
+    "2": {"opponents":2,"trials":100000,"win":0.331320,"tie":0.041770,"equity":0.351245},
+    "3": {"opponents":3,"trials":100000,"win":0.236450,"tie":0.039410,"equity":0.254853},
+    "4": {"opponents":4,"trials":100000,"win":0.182810,"tie":0.036560,"equity":0.199712},
+    "5": {"opponents":5,"trials":100000,"win":0.147590,"tie":0.034480,"equity":0.163398},
+    "6": {"opponents":6,"trials":100000,"win":0.122800,"tie":0.033040,"equity":0.137900},
+    "7": {"opponents":7,"trials":100000,"win":0.104420,"tie":0.031250,"equity":0.118642}
+  },
+  "K2o": {
+    "1": {"opponents":1,"trials":100000,"win":0.485810,"tie":0.041760,"equity":0.506690},
+    "2": {"opponents":2,"trials":100000,"win":0.294320,"tie":0.040050,"equity":0.313173},
+    "3": {"opponents":3,"trials":100000,"win":0.206300,"tie":0.036140,"equity":0.222850},
+    "4": {"opponents":4,"trials":100000,"win":0.156710,"tie":0.033230,"equity":0.171816},
+    "5": {"opponents":5,"trials":100000,"win":0.125520,"tie":0.030740,"equity":0.139414},
+    "6": {"opponents":6,"trials":100000,"win":0.103480,"tie":0.029140,"equity":0.116663},
+    "7": {"opponents":7,"trials":100000,"win":0.088240,"tie":0.027040,"equity":0.100443}
+  },
+  "Q2o": {
+    "1": {"opponents":1,"trials":100000,"win":0.450260,"tie":0.044410,"equity":0.472465},
+    "2": {"opponents":2,"trials":100000,"win":0.268600,"tie":0.039590,"equity":0.287058},
+    "3": {"opponents":3,"trials":100000,"win":0.184710,"tie":0.034010,"equity":0.200138},
+    "4": {"opponents":4,"trials":100000,"win":0.139990,"tie":0.030810,"equity":0.153831},
+    "5": {"opponents":5,"trials":100000,"win":0.112650,"tie":0.027980,"equity":0.125173},
+    "6": {"opponents":6,"trials":100000,"win":0.092080,"tie":0.026810,"equity":0.104094},
+    "7": {"opponents":7,"trials":100000,"win":0.077880,"tie":0.024630,"equity":0.088896}
+  },
+  "J2o": {
+    "1": {"opponents":1,"trials":100000,"win":0.419710,"tie":0.045530,"equity":0.442475},
+    "2": {"opponents":2,"trials":100000,"win":0.245950,"tie":0.038030,"equity":0.263518},
+    "3": {"opponents":3,"trials":100000,"win":0.170490,"tie":0.031740,"equity":0.184772},
+    "4": {"opponents":4,"trials":100000,"win":0.128970,"tie":0.028490,"equity":0.141695},
+    "5": {"opponents":5,"trials":100000,"win":0.101990,"tie":0.026650,"equity":0.113875},
+    "6": {"opponents":6,"trials":100000,"win":0.083820,"tie":0.025280,"equity":0.095049},
+    "7": {"opponents":7,"trials":100000,"win":0.069790,"tie":0.024520,"equity":0.080629}
+  },
+  "T2o": {
+    "1": {"opponents":1,"trials":100000,"win":0.392860,"tie":0.049350,"equity":0.417535},
+    "2": {"opponents":2,"trials":100000,"win":0.231010,"tie":0.037180,"equity":0.248003},
+    "3": {"opponents":3,"trials":100000,"win":0.159740,"tie":0.031910,"equity":0.173904},
+    "4": {"opponents":4,"trials":100000,"win":0.119100,"tie":0.029110,"equity":0.131963},
+    "5": {"opponents":5,"trials":100000,"win":0.093460,"tie":0.027270,"equity":0.105579},
+    "6": {"opponents":6,"trials":100000,"win":0.075600,"tie":0.026130,"equity":0.087251},
+    "7": {"opponents":7,"trials":100000,"win":0.062690,"tie":0.025190,"equity":0.073904}
+  },
+  "92o": {
+    "1": {"opponents":1,"trials":100000,"win":0.366790,"tie":0.051540,"equity":0.392560},
+    "2": {"opponents":2,"trials":100000,"win":0.215540,"tie":0.036460,"equity":0.231878},
+    "3": {"opponents":3,"trials":100000,"win":0.147840,"tie":0.029700,"equity":0.160920},
+    "4": {"opponents":4,"trials":100000,"win":0.109920,"tie":0.026500,"equity":0.121630},
+    "5": {"opponents":5,"trials":100000,"win":0.085650,"tie":0.024560,"equity":0.096524},
+    "6": {"opponents":6,"trials":100000,"win":0.069900,"tie":0.022500,"equity":0.079809},
+    "7": {"opponents":7,"trials":100000,"win":0.058570,"tie":0.021340,"equity":0.067931}
+  },
+  "82o": {
+    "1": {"opponents":1,"trials":100000,"win":0.338500,"tie":0.054760,"equity":0.365880},
+    "2": {"opponents":2,"trials":100000,"win":0.200400,"tie":0.035660,"equity":0.216252},
+    "3": {"opponents":3,"trials":100000,"win":0.137630,"tie":0.029100,"equity":0.150393},
+    "4": {"opponents":4,"trials":100000,"win":0.102760,"tie":0.026000,"equity":0.114184},
+    "5": {"opponents":5,"trials":100000,"win":0.080230,"tie":0.024030,"equity":0.090790},
+    "6": {"opponents":6,"trials":100000,"win":0.065490,"tie":0.022460,"equity":0.075305},
+    "7": {"opponents":7,"trials":100000,"win":0.054290,"tie":0.021630,"equity":0.063737}
+  },
+  "72o": {
+    "1": {"opponents":1,"trials":100000,"win":0.316360,"tie":0.057260,"equity":0.344990},
+    "2": {"opponents":2,"trials":100000,"win":0.188790,"tie":0.035100,"equity":0.204183},
+    "3": {"opponents":3,"trials":100000,"win":0.129320,"tie":0.028140,"equity":0.141422},
+    "4": {"opponents":4,"trials":100000,"win":0.096610,"tie":0.024690,"equity":0.107255},
+    "5": {"opponents":5,"trials":100000,"win":0.076100,"tie":0.022300,"equity":0.085718},
+    "6": {"opponents":6,"trials":100000,"win":0.062540,"tie":0.020660,"equity":0.071448},
+    "7": {"opponents":7,"trials":100000,"win":0.053340,"tie":0.019180,"equity":0.061613}
+  },
+  "62o": {
+    "1": {"opponents":1,"trials":100000,"win":0.309950,"tie":0.060000,"equity":0.339950},
+    "2": {"opponents":2,"trials":100000,"win":0.193060,"tie":0.034720,"equity":0.208147},
+    "3": {"opponents":3,"trials":100000,"win":0.134600,"tie":0.027140,"equity":0.146290},
+    "4": {"opponents":4,"trials":100000,"win":0.102940,"tie":0.022720,"equity":0.112753},
+    "5": {"opponents":5,"trials":100000,"win":0.083380,"tie":0.020220,"equity":0.092175},
+    "6": {"opponents":6,"trials":100000,"win":0.070280,"tie":0.018870,"equity":0.078545},
+    "7": {"opponents":7,"trials":100000,"win":0.060680,"tie":0.018110,"equity":0.068603}
+  },
+  "52o": {
+    "1": {"opponents":1,"trials":100000,"win":0.313930,"tie":0.061080,"equity":0.344470},
+    "2": {"opponents":2,"trials":100000,"win":0.200760,"tie":0.034650,"equity":0.215765},
+    "3": {"opponents":3,"trials":100000,"win":0.142690,"tie":0.028480,"equity":0.154965},
+    "4": {"opponents":4,"trials":100000,"win":0.110550,"tie":0.024330,"equity":0.121023},
+    "5": {"opponents":5,"trials":100000,"win":0.090740,"tie":0.021780,"equity":0.100075},
+    "6": {"opponents":6,"trials":100000,"win":0.077640,"tie":0.020470,"equity":0.086447},
+    "7": {"opponents":7,"trials":100000,"win":0.068070,"tie":0.019640,"equity":0.076549}
+  },
+  "42o": {
+    "1": {"opponents":1,"trials":100000,"win":0.299320,"tie":0.062440,"equity":0.330540},
+    "2": {"opponents":2,"trials":100000,"win":0.190670,"tie":0.033910,"equity":0.205247},
+    "3": {"opponents":3,"trials":100000,"win":0.135700,"tie":0.025800,"equity":0.146572},
+    "4": {"opponents":4,"trials":100000,"win":0.105170,"tie":0.022240,"equity":0.114515},
+    "5": {"opponents":5,"trials":100000,"win":0.086510,"tie":0.019790,"equity":0.094882},
+    "6": {"opponents":6,"trials":100000,"win":0.074390,"tie":0.018250,"equity":0.082167},
+    "7": {"opponents":7,"trials":100000,"win":0.065320,"tie":0.017580,"equity":0.072836}
+  },
+  "32o": {
+    "1": {"opponents":1,"trials":100000,"win":0.291630,"tie":0.061190,"equity":0.322225},
+    "2": {"opponents":2,"trials":100000,"win":0.183000,"tie":0.032190,"equity":0.196773},
+    "3": {"opponents":3,"trials":100000,"win":0.129820,"tie":0.024200,"equity":0.139987},
+    "4": {"opponents":4,"trials":100000,"win":0.100570,"tie":0.020040,"equity":0.108992},
+    "5": {"opponents":5,"trials":100000,"win":0.082250,"tie":0.017760,"equity":0.089738},
+    "6": {"opponents":6,"trials":100000,"win":0.070490,"tie":0.016360,"equity":0.077430},
+    "7": {"opponents":7,"trials":100000,"win":0.062350,"tie":0.015140,"equity":0.068815}
+  },
+  "22": {
+    "1": {"opponents":1,"trials":100000,"win":0.495210,"tie":0.018970,"equity":0.504695},
+    "2": {"opponents":2,"trials":100000,"win":0.304740,"tie":0.011180,"equity":0.308748},
+    "3": {"opponents":3,"trials":100000,"win":0.218120,"tie":0.008040,"equity":0.220603},
+    "4": {"opponents":4,"trials":100000,"win":0.176570,"tie":0.005970,"equity":0.178304},
+    "5": {"opponents":5,"trials":100000,"win":0.155140,"tie":0.004850,"equity":0.156525},
+    "6": {"opponents":6,"trials":100000,"win":0.141680,"tie":0.004240,"equity":0.142930},
+    "7": {"opponents":7,"trials":100000,"win":0.132810,"tie":0.003560,"equity":0.133903}
+  }
+}
