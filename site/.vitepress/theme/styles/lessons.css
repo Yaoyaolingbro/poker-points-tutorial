@@ -83,6 +83,39 @@
 .pp-best-five-answer { margin: 18px 0 0; padding: 18px; border-left: 4px solid var(--pp-red); background: var(--pp-white); }
 .pp-best-five-answer strong { color: var(--pp-red); }
 
+.pp-lab-heading { display: flex; align-items: end; justify-content: space-between; gap: 20px; }
+.pp-lab-heading h2 { margin: 4px 0 0; border: 0; color: inherit; }
+.pp-lab-heading small { color: var(--pp-brass); font-weight: 800; }
+.pp-lab-heading label { display: grid; min-width: 180px; gap: 6px; }
+.pp-position-orbit,
+.pp-action-pot { margin: 32px 0; padding: clamp(20px, 4vw, 34px); color: var(--pp-white); background: #173f34; }
+.pp-position-streets,
+.pp-step-controls { display: flex; margin-top: 20px; gap: 8px; }
+.pp-position-streets button,
+.pp-step-controls button { padding: 9px 13px; border: 1px solid rgba(255,255,255,.35); color: var(--pp-white); background: transparent; cursor: pointer; }
+.pp-position-streets button[aria-pressed="true"] { border-color: var(--pp-brass); color: var(--pp-ink); background: var(--pp-brass); }
+.pp-orbit-table { position: relative; height: 360px; margin: 22px 0; }
+.pp-orbit-felt { position: absolute; inset: 17% 13%; display: grid; border: 2px solid rgba(255,255,255,.2); border-radius: 50%; box-shadow: inset 0 0 0 12px rgba(0,0,0,.08); place-items: center; }
+.pp-orbit-felt span { color: rgba(255,255,255,.5); font-size: 13px; }
+.pp-orbit-seat { position: absolute; display: grid; min-width: 92px; min-height: 54px; padding: 8px 10px; border: 1px solid rgba(255,255,255,.25); background: #1d2925; transform: translate(-50%, -50%); place-items: center; transition: transform .25s ease, border-color .25s ease; }
+.pp-orbit-seat b { font-size: 13px; }
+.pp-orbit-seat small { min-height: 14px; color: rgba(255,255,255,.6); }
+.pp-orbit-seat.is-active { border-color: var(--pp-brass); box-shadow: 0 0 0 3px rgba(208,167,82,.25); transform: translate(-50%, -50%) scale(1.08); }
+.pp-action-pot > p { color: rgba(255,255,255,.82); }
+.pp-pot-visual { display: grid; width: 150px; height: 100px; margin: 24px auto; border: 1px solid rgba(255,255,255,.25); border-radius: 50%; place-content: center; text-align: center; }
+.pp-pot-visual span { color: rgba(255,255,255,.55); font-size: 12px; }
+.pp-pot-visual strong { color: var(--pp-brass); }
+.pp-action-buttons { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; }
+.pp-action-buttons button { padding: 12px 8px; border: 1px solid rgba(255,255,255,.25); color: var(--pp-white); background: transparent; cursor: pointer; }
+.pp-action-buttons button[aria-pressed="true"] { border-color: var(--pp-brass); background: rgba(208,167,82,.16); }
+.pp-action-buttons button:disabled { opacity: .28; cursor: not-allowed; }
+.pp-stack-depth { margin: 32px 0; padding: clamp(20px, 4vw, 34px); border: 1px solid rgba(23,33,30,.2); border-left: 8px solid var(--pp-brass); background: #f8f5ed; }
+.pp-stack-depth .pp-lab-heading small { color: var(--pp-red); }
+.pp-stack-sliders { display: grid; margin: 24px 0; grid-template-columns: repeat(2, 1fr); gap: 26px; }
+.pp-stack-sliders label { display: grid; gap: 8px; }
+.pp-effective-readout { display: flex; padding: 20px; color: var(--pp-white); background: var(--pp-ink); align-items: baseline; justify-content: space-between; }
+.pp-effective-readout strong { color: var(--pp-brass); font-size: 28px; }
+
 .pp-formula {
   margin: 24px 0;
   padding: 18px;
@@ -125,9 +158,15 @@
   .pp-quiz-hands { grid-template-columns: 1fr; }
   .pp-best-five-cards { display: flex; overflow-x: auto; padding: 8px 2px 12px; scroll-snap-type: x mandatory; }
   .pp-best-five-cards button { min-width: 86px; scroll-snap-align: start; }
+  .pp-lab-heading { align-items: stretch; flex-direction: column; }
+  .pp-orbit-table { height: 310px; }
+  .pp-orbit-seat { min-width: 74px; min-height: 48px; padding: 6px; }
+  .pp-action-buttons { grid-template-columns: repeat(2, 1fr); }
+  .pp-stack-sliders { grid-template-columns: 1fr; }
 }
 
 @media (prefers-reduced-motion: reduce) {
   .pp-drill-answer { animation: none; }
   .pp-best-five-cards button { transition: none; }
+  .pp-orbit-seat { transition: none; }
 }

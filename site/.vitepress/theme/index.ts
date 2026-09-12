@@ -7,6 +7,9 @@ import HandRanks from '@/components/lesson/HandRanks.vue'
 import HandCompareExamples from '@/components/lesson/HandCompareExamples.vue'
 import RankOrderQuiz from '@/components/lesson/RankOrderQuiz.vue'
 import BestFiveChallenge from '@/components/lesson/BestFiveChallenge.vue'
+import PositionOrbit from '@/components/lesson/PositionOrbit.vue'
+import ActionPotDemo from '@/components/lesson/ActionPotDemo.vue'
+import StackDepthLab from '@/components/labs/StackDepthLab.vue'
 import DecisionDrill from '@/components/lesson/DecisionDrill.vue'
 import './styles/tokens.css'
 import './styles/base.css'
@@ -24,6 +27,9 @@ export default {
     app.component('HandCompareExamples', HandCompareExamples)
     app.component('RankOrderQuiz', RankOrderQuiz)
     app.component('BestFiveChallenge', BestFiveChallenge)
+    app.component('PositionOrbit', PositionOrbit)
+    app.component('ActionPotDemo', ActionPotDemo)
+    app.component('StackDepthLab', StackDepthLab)
     app.component('DecisionDrill', DecisionDrill)
   }
 } satisfies Theme
