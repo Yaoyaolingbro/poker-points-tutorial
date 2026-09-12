@@ -67,6 +67,22 @@
 .pp-quiz-answer { margin: 18px 0 0; padding: 18px; border-left: 4px solid var(--pp-brass); background: rgba(255,255,255,.08); }
 .pp-quiz-answer strong { color: var(--pp-brass); }
 
+.pp-best-five { margin: 30px 0; padding: clamp(20px, 4vw, 32px); border: 1px solid rgba(23,33,30,.18); background: #f8f5ed; }
+.pp-best-five header h2 { margin: 5px 0 8px; border: 0; }
+.pp-best-five header small { color: var(--pp-red); font-weight: 800; }
+.pp-best-five header p { margin: 0; color: var(--pp-ink-soft); }
+.pp-best-five-cards { display: grid; margin: 24px 0; grid-template-columns: repeat(7, minmax(62px, 1fr)); gap: 8px; }
+.pp-best-five-cards button { min-width: 0; padding: 8px 4px; border: 1px solid transparent; background: transparent; cursor: pointer; transition: transform .18s ease, background-color .18s ease, box-shadow .18s ease; }
+.pp-best-five-cards button small { display: block; margin-bottom: 5px; color: var(--pp-ink-soft); }
+.pp-best-five-cards button[aria-pressed="true"] { border-color: var(--pp-red); background: rgba(172,50,42,.08); box-shadow: 0 0 0 2px rgba(172,50,42,.18); transform: translateY(-5px); }
+.pp-best-five-cards .pp-playing-card--teaching { width: 100%; height: auto; aspect-ratio: 223 / 312; }
+.pp-best-five-actions { display: flex; gap: 10px; }
+.pp-best-five-actions button { padding: 10px 15px; border: 1px solid var(--pp-ink); background: transparent; cursor: pointer; font-weight: 800; }
+.pp-best-five-actions button:first-child { color: var(--pp-white); background: var(--pp-ink); }
+.pp-best-five-actions button:disabled { cursor: not-allowed; opacity: .42; }
+.pp-best-five-answer { margin: 18px 0 0; padding: 18px; border-left: 4px solid var(--pp-red); background: var(--pp-white); }
+.pp-best-five-answer strong { color: var(--pp-red); }
+
 .pp-formula {
   margin: 24px 0;
   padding: 18px;
@@ -107,8 +123,11 @@
   .pp-decision-drill .pp-playing-card--board { width: 46px; height: 64px; }
   .pp-quiz-board .pp-playing-card--board { width: min(47px, 15vw); height: auto; aspect-ratio: 223 / 312; }
   .pp-quiz-hands { grid-template-columns: 1fr; }
+  .pp-best-five-cards { display: flex; overflow-x: auto; padding: 8px 2px 12px; scroll-snap-type: x mandatory; }
+  .pp-best-five-cards button { min-width: 86px; scroll-snap-align: start; }
 }
 
 @media (prefers-reduced-motion: reduce) {
   .pp-drill-answer { animation: none; }
+  .pp-best-five-cards button { transition: none; }
 }
