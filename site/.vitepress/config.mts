@@ -22,23 +22,24 @@ export const siteConfig = defineConfig({
   themeConfig: {
     search: { provider: 'local' },
     nav: [
-      { text: '开始', link: '/start/table-rules' },
+      { text: '开始', link: '/basics/hand-rankings' },
       { text: '速查', link: '/quick-reference' },
       { text: '资源', link: '/resources' }
     ],
     sidebar: [
       {
-        text: '先完成一手牌',
+        text: '先会比大小',
         items: [
-          { text: '牌桌规则', link: '/start/table-rules' },
-          { text: '三分钟一手牌', link: '/start/first-hand' }
+          { text: '牌型从大到小', link: '/basics/hand-rankings' },
+          { text: '七张牌，只选五张', link: '/basics/best-five' }
         ]
       },
       {
-        text: '看懂桌面',
+        text: '看懂一手牌',
         items: [
-          { text: '牌型与比较', link: '/basics/hand-rankings' },
-          { text: '位置与基础动作', link: '/basics/action-order' }
+          { text: '三分钟一手牌', link: '/start/first-hand' },
+          { text: '位置与基础动作', link: '/basics/action-order' },
+          { text: '积分桌规则', link: '/start/table-rules' }
         ]
       },
       {

@@ -10,10 +10,11 @@ describe('site configuration', () => {
   it('exposes the finished core path in reading order', () => {
     const sidebar = siteConfig.themeConfig?.sidebar as Array<{ items: Array<{ link: string }> }>
     expect(sidebar.flatMap((group) => group.items.map((item) => item.link))).toEqual([
-      '/start/table-rules',
-      '/start/first-hand',
       '/basics/hand-rankings',
+      '/basics/best-five',
+      '/start/first-hand',
       '/basics/action-order',
+      '/start/table-rules',
       '/math/outs',
       '/math/pot-odds',
       '/strategy/bet-purpose',
